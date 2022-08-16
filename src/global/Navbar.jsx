@@ -48,7 +48,6 @@ const Navbar = () => {
                   <Link to={"/what-we-do"} className="navbar-item">
                     What we do
                   </Link>
-                  <hr className="navbar-divider" />
                   <Link to={"/board-of-directors"} className="navbar-item">
                     Board of directors
                   </Link>
@@ -56,13 +55,27 @@ const Navbar = () => {
                     to={"/business-leadership-team"}
                     className="navbar-item"
                   >
-                    Business leadership team
+                    Leadership team
                   </Link>
                 </div>
               </div>
-              <Link to={"/services"} className="navbar-item">
-                Our services
-              </Link>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link" href="#services">
+                  Our services
+                </a>
+
+                <div className="navbar-dropdown">
+                  <Link to={"/security-services"} className="navbar-item">
+                    Security services
+                  </Link>
+                  <Link to={"/technology-services"} className="navbar-item">
+                    Technology services
+                  </Link>
+                  <Link to={"/professional-services"} className="navbar-item">
+                    Professional services
+                  </Link>
+                </div>
+              </div>
               <Link to={"/media-center"} className="navbar-item">
                 Media center
               </Link>

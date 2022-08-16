@@ -13,8 +13,48 @@ const Footer = () => {
           <div class="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
             <div>
               <p className="has-text-light">
-                <Icon name="copyright outline" /> Langley Security Group
-                International 2022. All Rights Reserved.
+                <Icon name="copyright outline" /> Langley Security Group 2022.
+                All Rights Reserved.
+              </p>
+            </div>
+            <div className="is-flex is-align-items-center">
+              <Link
+                to={"/faqs"}
+                className="has-text-light is-underlined extra-links"
+              >
+                FAQs
+              </Link>
+              <Link
+                to={"/careers"}
+                className="has-text-light is-underlined extra-links"
+              >
+                Careers
+              </Link>
+              <Link
+                to={"/privacy-policy"}
+                className="has-text-light is-underlined extra-links"
+              >
+                Privacy policy
+              </Link>
+              <Link
+                to={"terms-&-conditions"}
+                className="has-text-light is-underlined"
+              >
+                Terms {"&"} conditions
+              </Link>
+            </div>
+          </div>
+          <div className="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
+            <div>
+              <p className="has-text-light">
+                <Icon name="code" /> Developed by{" "}
+                <a
+                  href="http://freedomloisa.netlify.app/"
+                  className="has-text-light is-underlined"
+                >
+                  Freedom Loisa
+                </a>{" "}
+                <Icon name="code" />
               </p>
             </div>
             <div className="is-flex is-align-items-center">
@@ -48,46 +88,6 @@ const Footer = () => {
               >
                 <Icon name="envelope square" />
               </a>
-            </div>
-          </div>
-          <div className="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
-            <div>
-              <p className="has-text-light">
-                <Icon name="code" /> developed by{" "}
-                <a
-                  href="http://freedomloisa.netlify.app/"
-                  className="has-text-light is-underlined"
-                >
-                  Freedom Loisa
-                </a>{" "}
-                <Icon name="code" />
-              </p>
-            </div>
-            <div className="is-flex is-align-items-center">
-              <Link
-                to={"/faqs"}
-                className="has-text-light is-underlined extra-links"
-              >
-                FAQs
-              </Link>
-              <Link
-                to={"/careers"}
-                className="has-text-light is-underlined extra-links"
-              >
-                Careers
-              </Link>
-              <Link
-                to={"/privacy-policy"}
-                className="has-text-light is-underlined extra-links"
-              >
-                Privacy policy
-              </Link>
-              <Link
-                to={"terms-&-conditions"}
-                className="has-text-light is-underlined"
-              >
-                Terms {"&"} conditions
-              </Link>
             </div>
           </div>
           <br />
