@@ -5,10 +5,10 @@ import "../global/css/Footer.css";
 
 const Footer = () => {
   return (
-    <div className="global has-background-danger">
+    <div className="global has-background-dark">
       {/* footer */}
       <Container>
-        <footer class="has-background-danger">
+        <footer class="has-background-dark">
           <br />
           <div class="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
             <div>

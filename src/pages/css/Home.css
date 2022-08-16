@@ -6,3 +6,12 @@
 .intro-media {
   margin: auto;
 }
+
+.pitch-card {
+  width: 30%;
+}
+
+.card-setting {
+  -webkit-box-shadow: 5px 5px 15px -5px #000000; 
+box-shadow: 5px 5px 15px -5px #000000;
+}

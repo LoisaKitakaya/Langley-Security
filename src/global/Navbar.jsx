@@ -8,11 +8,11 @@ const Navbar = () => {
   const [visible, setVisible] = useState(false);
 
   return (
-    <div className="global has-background-danger">
+    <div className="global has-background-dark">
       {/* navbar */}
       <Container>
         <nav
-          className="navbar is-danger"
+          className="navbar is-dark"
           role="navigation"
           aria-label="main navigation"
         >
