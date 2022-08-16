@@ -1,0 +1,101 @@
+import { Link } from "react-router-dom";
+import { Container, Icon } from "semantic-ui-react";
+
+import "../global/css/Footer.css";
+
+const Footer = () => {
+  return (
+    <div className="global has-background-danger">
+      {/* footer */}
+      <Container>
+        <footer class="has-background-danger">
+          <br />
+          <div class="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
+            <div>
+              <p className="has-text-light">
+                <Icon name="copyright outline" /> Langley Security Group
+                International 2022. All Rights Reserved.
+              </p>
+            </div>
+            <div className="is-flex is-align-items-center">
+              <a
+                href="https://wa.me/254725131828"
+                className="has-text-light is-size-4"
+              >
+                <Icon name="whatsapp square" />
+              </a>
+              <a
+                href="https://twitter.com/FreedomLoisa"
+                className="has-text-light is-size-4"
+              >
+                <Icon name="twitter square" />
+              </a>
+              <a
+                href="https://twitter.com/FreedomLoisa"
+                className="has-text-light is-size-4"
+              >
+                <Icon name="facebook" />
+              </a>
+              <a
+                href="tel:+254 725 131 828"
+                className="has-text-light is-size-4"
+              >
+                <Icon name="phone square" />
+              </a>
+              <a
+                href="mailto:kitakayaloisa@gmail.com"
+                className="has-text-light is-size-4"
+              >
+                <Icon name="envelope square" />
+              </a>
+            </div>
+          </div>
+          <div className="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
+            <div>
+              <p className="has-text-light">
+                <Icon name="code" /> developed by{" "}
+                <a
+                  href="http://freedomloisa.netlify.app/"
+                  className="has-text-light is-underlined"
+                >
+                  Freedom Loisa
+                </a>{" "}
+                <Icon name="code" />
+              </p>
+            </div>
+            <div className="is-flex is-align-items-center">
+              <Link
+                to={"/faqs"}
+                className="has-text-light is-underlined extra-links"
+              >
+                FAQs
+              </Link>
+              <Link
+                to={"/careers"}
+                className="has-text-light is-underlined extra-links"
+              >
+                Careers
+              </Link>
+              <Link
+                to={"/privacy-policy"}
+                className="has-text-light is-underlined extra-links"
+              >
+                Privacy policy
+              </Link>
+              <Link
+                to={"terms-&-conditions"}
+                className="has-text-light is-underlined"
+              >
+                Terms {"&"} conditions
+              </Link>
+            </div>
+          </div>
+          <br />
+        </footer>
+      </Container>
+      {/* footer */}
+    </div>
+  );
+};
+
+export default Footer;

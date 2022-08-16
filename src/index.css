@@ -1,3 +1,5 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
 @import url("https://fonts.googleapis.com/css2?family=Manrope&family=Nunito&family=Oxygen&family=Quicksand&display=swap");
 
 /* 
@@ -15,50 +17,9 @@ body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-family: "Oxygen", sans-serif !important;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "Oxygen", sans-serif !important;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Oxygen", sans-serif !important;
-  margin: 1rem 0 !important;
-}
-
-p {
-  font-size: medium;
-}
-
-h1 {
-  font-size: xx-large !important;
-}
-
-h2 {
-  font-size: x-large !important;
-}
-
-h3 {
-  font-size: large !important;
-}
-
-h4 {
-  font-size: larger !important;
-}
-
-h5 {
-  font-size: medium !important;
-}
-
-h6 {
-  font-size: small !important;
 }
