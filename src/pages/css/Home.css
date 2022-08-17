@@ -3,15 +3,31 @@
   margin: 1rem auto;
 }
 
-.intro-media {
-  margin: auto;
-}
-
 .pitch-card {
   width: 30%;
 }
 
 .card-setting {
-  -webkit-box-shadow: 5px 5px 15px -5px #000000; 
-box-shadow: 5px 5px 15px -5px #000000;
+  -webkit-box-shadow: 5px 5px 15px -5px #000000;
+  box-shadow: 5px 5px 15px -5px #000000;
+}
+
+.pinch {
+  width: 70%;
+  margin: auto;
+}
+
+.pinch-2 {
+  width: 50%;
+  margin: auto;
+}
+
+.outro-container,
+.news-container {
+  width: 50%;
+}
+
+.outro-container {
+  background-image: url("/src/assets/pexels-tyler-lastovich-1275929.jpg");
+  background-size: cover;
 }

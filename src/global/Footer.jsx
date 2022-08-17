@@ -8,9 +8,8 @@ const Footer = () => {
     <div className="global has-background-dark">
       {/* footer */}
       <Container>
-        <footer class="has-background-dark">
-          <br />
-          <div class="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
+        <footer className="has-background-dark pt-6 pb-6">
+          <div className="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
             <div>
               <p className="has-text-light">
                 <Icon name="copyright outline" /> Langley Security Group 2022.
@@ -20,19 +19,19 @@ const Footer = () => {
             <div className="is-flex is-align-items-center">
               <Link
                 to={"/faqs"}
-                className="has-text-light is-underlined extra-links"
+                className="has-text-light is-underlined mr-3"
               >
                 FAQs
               </Link>
               <Link
                 to={"/careers"}
-                className="has-text-light is-underlined extra-links"
+                className="has-text-light is-underlined mr-3"
               >
                 Careers
               </Link>
               <Link
                 to={"/privacy-policy"}
-                className="has-text-light is-underlined extra-links"
+                className="has-text-light is-underlined mr-3"
               >
                 Privacy policy
               </Link>
@@ -90,7 +89,6 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <br />
         </footer>
       </Container>
       {/* footer */}
