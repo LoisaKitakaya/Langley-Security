@@ -46,7 +46,7 @@ const Home = () => {
       <Container>
         <div className="has-background-light is-flex mb-6 p-6 card-setting">
           <div className="has-text-centered m-4 has-background-dark box has-text-light">
-            <Icon name="globe" size="huge" />
+            <Icon name="handshake" size="huge" />
             <br />
             <br />
             <h3 className="is-size-3">United in our mission</h3>
@@ -62,7 +62,7 @@ const Home = () => {
             </Link>
           </div>
           <div className="has-text-centered m-4 has-background-dark box has-text-light">
-            <Icon name="eye" size="huge" />
+            <Icon name="map marker alternate" size="huge" />
             <br />
             <br />
             <h3 className="is-size-3">Your local service provider</h3>
