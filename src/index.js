@@ -11,7 +11,7 @@ import "./index.css";
 import App from "./App";
 
 const client = new ApolloClient({
-  uri: "https://flyby-gateway.herokuapp.com/",
+  uri: "https://api-eu-central-1.hygraph.com/v2/cl6yr7nrv16yu01t59qwt6gb5/master",
   cache: new InMemoryCache(),
 });
 

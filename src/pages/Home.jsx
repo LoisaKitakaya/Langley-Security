@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import { Container, Button, Icon, Item } from "semantic-ui-react";
+import { Container, Button, Icon } from "semantic-ui-react";
 import ReactPlayer from "react-player/youtube";
 
 import PageTitle from "../components/PageTitle";
+import NewsFeed from "../components/NewsFeed";
 
 import "../pages/css/Home.css";
 
@@ -220,44 +221,7 @@ const Home = () => {
           <div className="news-container p-6">
             <h3 className="is-size-3">News</h3>
             <br />
-            <Item.Group>
-              <Item>
-                <Item.Image
-                  size="tiny"
-                  src="https://react.semantic-ui.com/images/wireframe/image.png"
-                />
-                <Item.Content
-                  header="Arrowhead Valley Camp"
-                  meta="$1200 1 Month"
-                />
-              </Item>
-              <Item>
-                <Item.Image
-                  size="tiny"
-                  src="https://react.semantic-ui.com/images/wireframe/image.png"
-                />
-                <Item.Content
-                  header="Arrowhead Valley Camp"
-                  meta="$1200 1 Month"
-                />
-              </Item>
-              <Item>
-                <Item.Image
-                  size="tiny"
-                  src="https://react.semantic-ui.com/images/wireframe/image.png"
-                />
-                <Item.Content
-                  header="Arrowhead Valley Camp"
-                  meta="$1200 1 Month"
-                />
-              </Item>
-            </Item.Group>
-            <Link
-              to={"/media-center"}
-              className="button is-danger is-pulled-right"
-            >
-              More news
-            </Link>
+            <NewsFeed />
           </div>
         </div>
       </Container>

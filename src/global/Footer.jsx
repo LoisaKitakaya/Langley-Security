@@ -17,10 +17,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="is-flex is-align-items-center">
-              <Link
-                to={"/faqs"}
-                className="has-text-light is-underlined mr-3"
-              >
+              <Link to={"/faqs"} className="has-text-light is-underlined mr-3">
                 FAQs
               </Link>
               <Link
@@ -68,6 +65,12 @@ const Footer = () => {
                 className="has-text-light is-size-4"
               >
                 <Icon name="twitter square" />
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=_NPMrZ1Pdm4"
+                className="has-text-light is-size-4"
+              >
+                <Icon name="youtube square" />
               </a>
               <a
                 href="https://twitter.com/FreedomLoisa"
