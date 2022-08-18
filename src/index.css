@@ -39,3 +39,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  .image-gallery-slide .image-gallery-description {
+    bottom: 10px !important;
+  }
+}

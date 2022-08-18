@@ -10,7 +10,7 @@ const Footer = () => {
       <Container>
         <footer className="has-background-dark pt-6 pb-6">
           <div className="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
-            <div>
+            <div className="citation-caption">
               <p className="has-text-light">
                 <Icon name="copyright outline" /> Langley Security Group 2022.
                 All Rights Reserved.
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
-            <div>
+            <div className="credits-caption">
               <p className="has-text-light">
                 <Icon name="code" /> Developed by{" "}
                 <a

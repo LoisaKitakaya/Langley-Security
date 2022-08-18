@@ -2,4 +2,13 @@
   footer {
     text-align: left !important;
   }
+
+  .content {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .citation-caption, .credits-caption {
+    margin-bottom: 1rem !important;
+  }
 }

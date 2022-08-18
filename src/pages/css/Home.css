@@ -31,3 +31,70 @@
   background-image: url("/src/assets/pexels-tyler-lastovich-1275929.jpg");
   background-size: cover;
 }
+
+.view-feed-btn {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .intro-content {
+    text-align: center !important;
+  }
+  
+  .intro-container {
+    flex-wrap: wrap !important;
+  }
+
+  .content-player {
+    margin-bottom: 3rem !important;
+  }
+
+  .player-wrapper {
+    width: auto !important;
+    height: auto !important;
+  }
+  .react-player {
+    padding-top: 56.25% !important;
+    position: relative !important;
+  }
+  .react-player > div {
+    position: absolute !important;
+  }
+
+  .pitch-container,
+  .resources-container,
+  .services-container,
+  .contact-container {
+    flex-wrap: wrap !important;
+    padding: 1rem !important;
+  }
+
+  .pinch {
+    width: 85% !important;
+    margin: auto !important;
+  }
+
+  .pinch-2 {
+    width: 100% !important;
+  }
+
+  .outro-container,
+  .news-container {
+    width: 100% !important;
+    margin: auto !important;
+  }
+
+  .view-news-link {
+    text-align: center !important;
+  }
+
+  .resized-btn {
+    float: initial !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .contact-container {
+    text-align: center !important;
+  }
+}

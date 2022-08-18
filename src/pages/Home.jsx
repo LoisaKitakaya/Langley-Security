@@ -35,7 +35,7 @@ const Home = () => {
       {/* intro */}
       <Container>
         <div className="is-flex intro-container mt-6 mb-6 card-setting">
-          <div>
+          <div className="content-player">
             <ReactPlayer url="https://vimeo.com/255170713" />
           </div>
           <div className="has-background-light">
@@ -74,7 +74,7 @@ const Home = () => {
 
       {/* pitch */}
       <Container>
-        <div className="has-background-light is-flex mb-6 p-6 card-setting">
+        <div className="has-background-light is-flex mb-6 p-6 card-setting pitch-container">
           <div className="has-text-centered m-4 has-background-dark box has-text-light">
             <Icon name="handshake" size="huge" />
             <br />
@@ -87,7 +87,7 @@ const Home = () => {
               out in our deeds and actions, every day.
             </p>
             <br />
-            <Link to={"/contact-us"} className="button is-danger">
+            <Link to={"/contact-us"} className="button is-danger resized-btn">
               Contact us
             </Link>
           </div>
@@ -103,7 +103,7 @@ const Home = () => {
               office here.
             </p>
             <br />
-            <Link to={"/locations"} className="button is-danger">
+            <Link to={"/locations"} className="button is-danger resized-btn">
               Locations
             </Link>
           </div>
@@ -119,7 +119,7 @@ const Home = () => {
               family member or neighbor today.
             </p>
             <br />
-            <Link to={"/careers"} className="button is-danger">
+            <Link to={"/careers"} className="button is-danger resized-btn">
               Careers
             </Link>
           </div>
@@ -140,7 +140,7 @@ const Home = () => {
           </p>
         </div>
         <Container>
-          <div className="is-flex is-justify-content-space-between">
+          <div className="is-flex is-justify-content-space-between services-container">
             <div className="card m-3 has-background-light card-setting">
               <div className="card-image">
                 <img
@@ -152,7 +152,10 @@ const Home = () => {
               <div className="card-content">
                 <h3 className="is-size-3">Security services</h3>
                 <br />
-                <Link to={"/security-services"} className="button is-danger">
+                <Link
+                  to={"/security-services"}
+                  className="button is-danger resized-btn"
+                >
                   Learn more
                 </Link>
               </div>
@@ -168,7 +171,10 @@ const Home = () => {
               <div className="card-content">
                 <h3 className="is-size-3">Technology services</h3>
                 <br />
-                <Link to={"/technology-services"} className="button is-danger">
+                <Link
+                  to={"/technology-services"}
+                  className="button is-danger resized-btn"
+                >
                   Learn more
                 </Link>
               </div>
@@ -186,7 +192,7 @@ const Home = () => {
                 <br />
                 <Link
                   to={"/professional-services"}
-                  className="button is-danger"
+                  className="button is-danger resized-btn"
                 >
                   Learn more
                 </Link>
@@ -199,7 +205,7 @@ const Home = () => {
 
       {/* resources */}
       <Container>
-        <div className="is-flex mb-6 p-6 has-background-light card-setting">
+        <div className="is-flex mb-6 p-6 has-background-light card-setting resources-container">
           <div className="has-text-centered m-4 box has-background-dark has-text-light pinch-2">
             <h3 className="is-size-3">The State of Security Today</h3>
             <br />
@@ -209,7 +215,7 @@ const Home = () => {
               our resources.
             </p>
             <br />
-            <Link to={"/media-center"} className="button is-danger">
+            <Link to={"/media-center"} className="button is-danger resized-btn">
               Resources
             </Link>
           </div>
@@ -222,7 +228,7 @@ const Home = () => {
               solutions to their security challenges.
             </p>
             <br />
-            <Link to={"/careers"} className="button is-danger">
+            <Link to={"/careers"} className="button is-danger resized-btn">
               Careers
             </Link>
           </div>
@@ -232,7 +238,7 @@ const Home = () => {
 
       {/* outro */}
       <Container>
-        <div className="is-flex mb-6 has-background-light card-setting">
+        <div className="is-flex mb-6 has-background-light card-setting contact-container">
           <div className="outro-container p-6 has-text-light">
             <h3 className="is-size-3">Contact us</h3>
             <br />
@@ -243,7 +249,7 @@ const Home = () => {
             </p>
             <br />
             <br />
-            <Link to={"/contact-us"} className="button is-danger">
+            <Link to={"/contact-us"} className="button is-danger resized-btn">
               Contact us
             </Link>
           </div>

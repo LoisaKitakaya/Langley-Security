@@ -43,7 +43,7 @@ const NewsFeed = () => {
                   header={item.newsHeadline}
                   meta={item.publishedDate}
                 />
-                <Link to={`/feed/${item.newsSlug}`}>Read</Link>
+                <Link to={`/feed/${item.newsSlug}`} className="view-news-link">Read</Link>
               </Item>
             </>
           );
@@ -51,7 +51,7 @@ const NewsFeed = () => {
           return list;
         })}
       </Item.Group>
-      <Link to={"/media-center"} className="button is-danger is-pulled-right">
+      <Link to={"/media-center"} className="button is-danger resized-btn">
         More news
       </Link>
     </div>
