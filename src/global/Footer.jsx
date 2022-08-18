@@ -67,10 +67,10 @@ const Footer = () => {
                 <Icon name="twitter square" />
               </a>
               <a
-                href="https://www.youtube.com/watch?v=_NPMrZ1Pdm4"
+                href="https://vimeo.com/255170713"
                 className="has-text-light is-size-4"
               >
-                <Icon name="youtube square" />
+                <Icon name="vimeo square" />
               </a>
               <a
                 href="https://twitter.com/FreedomLoisa"

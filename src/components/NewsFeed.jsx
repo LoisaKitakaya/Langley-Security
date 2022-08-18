@@ -21,7 +21,6 @@ const GET_RECENT_FEED = gql`
 
 const NewsFeed = () => {
   const { loading, error, data } = useQuery(GET_RECENT_FEED);
-  console.log(data);
 
   if (loading)
     return (

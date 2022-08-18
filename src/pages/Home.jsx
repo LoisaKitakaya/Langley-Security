@@ -1,11 +1,31 @@
 import { Link } from "react-router-dom";
 import { Container, Button, Icon } from "semantic-ui-react";
-import ReactPlayer from "react-player/youtube";
+import ImageGallery from "react-image-gallery";
+
+import ReactPlayer from "react-player";
 
 import PageTitle from "../components/PageTitle";
 import NewsFeed from "../components/NewsFeed";
 
 import "../pages/css/Home.css";
+
+const images = [
+  {
+    original:
+      "https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "This is the description for this image",
+  },
+  {
+    original:
+      "https://images.pexels.com/photos/177809/pexels-photo-177809.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "This is the description for this image",
+  },
+  {
+    original:
+      "https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "This is the description for this image",
+  },
+];
 
 const Home = () => {
   PageTitle("Home");
@@ -16,7 +36,7 @@ const Home = () => {
       <Container>
         <div className="is-flex intro-container mt-6 mb-6 card-setting">
           <div>
-            <ReactPlayer url="https://www.youtube.com/watch?v=ug50zmP9I7s" />
+            <ReactPlayer url="https://vimeo.com/255170713" />
           </div>
           <div className="has-background-light">
             <div className="intro-content">
@@ -42,6 +62,15 @@ const Home = () => {
         </div>
       </Container>
       {/* into */}
+
+      {/* slider */}
+      <div className="has-background-dark has-text-light pt-6 pb-6 mb-6">
+        <h2 className="is-size-2 has-text-centered mb-6">
+          Welcome to Langley Security Group
+        </h2>
+        <ImageGallery items={images} />
+      </div>
+      {/* slider */}
 
       {/* pitch */}
       <Container>
@@ -100,10 +129,10 @@ const Home = () => {
 
       {/* services overview */}
       <div className="has-background-dark has-text-light pt-6 pb-6 mb-6">
-        <div className="has-text-centered pb-6">
-          <h3 className="is-size-3">Scalable, End-to-End Solutions</h3>
+        <div className="has-text-centered pb-4">
+          <h2 className="is-size-2">Scalable, End-to-End Solutions</h2>
           <br />
-          <p className="pinch">
+          <p className="pinch is-size-6">
             Langley Security provides integrated security services that combine
             security personnel, technology, and a variety of professional
             services, to give our clients a flexible and scalable approach to
@@ -111,8 +140,8 @@ const Home = () => {
           </p>
         </div>
         <Container>
-          <div className="is-flex is-justify-content-space-between mb-6">
-            <div className="card m-3 has-background-light">
+          <div className="is-flex is-justify-content-space-between">
+            <div className="card m-3 has-background-light card-setting">
               <div className="card-image">
                 <img
                   className="image"
@@ -128,7 +157,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="card m-3 has-background-light">
+            <div className="card m-3 has-background-light card-setting">
               <div className="card-image">
                 <img
                   className="image"
@@ -144,7 +173,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="card m-3 has-background-light">
+            <div className="card m-3 has-background-light card-setting">
               <div className="card-image">
                 <img
                   className="image"
