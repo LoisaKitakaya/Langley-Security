@@ -48,29 +48,13 @@ const Home = () => {
           </div>
           {/* iframe for responsive behavior */}
           <div className="intro-content">
-            <h1 className="is-size-1 ml-6 mt-5 reframe">There for you</h1>
+            <h1 className="is-size-1 ml-6 mt-6 reframe">There for you</h1>
             <br />
-            <p className="is-size-5 ml-6 mr-6 reframe">
+            <p className="is-size-5 ml-6 mr-6 pb-3 reframe">
               Since 2012, we have forged our organization under a single
               purpose: to keep people, businesses, and communities safe so we
               can all thrive together.
             </p>
-            <br />
-            <Button.Group className="ml-6 reframe p-bot">
-              <Button as={Link} to={"/who-we-re"} animated color="red">
-                <Button.Content visible>Who we are</Button.Content>
-                <Button.Content hidden>
-                  <Icon name="arrow right" />
-                </Button.Content>
-              </Button>
-              <Button as={Link} to={"/what-we-do"} animated color="red">
-                <Button.Content visible>What we do</Button.Content>
-                <Button.Content hidden>
-                  <Icon name="arrow right" />
-                </Button.Content>
-              </Button>
-            </Button.Group>
-            <br />
           </div>
         </div>
       </Container>
@@ -100,7 +84,13 @@ const Home = () => {
               out in our deeds and actions, every day.
             </p>
             <br />
-            <Button as={Link} to={"/contact-us"} animated color="red">
+            <Button
+              as={Link}
+              to={"/contact-us"}
+              animated
+              color="red"
+              className="btn-fluid"
+            >
               <Button.Content visible>Contact us</Button.Content>
               <Button.Content hidden>
                 <Icon name="phone" />
@@ -119,7 +109,13 @@ const Home = () => {
               office here.
             </p>
             <br />
-            <Button as={Link} to={"/locations"} animated color="red">
+            <Button
+              as={Link}
+              to={"/locations"}
+              animated
+              color="red"
+              className="btn-fluid"
+            >
               <Button.Content visible>Locations</Button.Content>
               <Button.Content hidden>
                 <Icon name="map" />
@@ -138,7 +134,13 @@ const Home = () => {
               family member or neighbor today.
             </p>
             <br />
-            <Button as={Link} to={"/careers"} animated color="red">
+            <Button
+              as={Link}
+              to={"/careers"}
+              animated
+              color="red"
+              className="btn-fluid"
+            >
               <Button.Content visible>Careers</Button.Content>
               <Button.Content hidden>
                 <Icon name="briefcase" />
@@ -179,6 +181,7 @@ const Home = () => {
                   to={"/security-services"}
                   animated
                   color="red"
+                  className="btn-fluid"
                 >
                   <Button.Content visible>Learn more</Button.Content>
                   <Button.Content hidden>
@@ -203,6 +206,7 @@ const Home = () => {
                   to={"/technology-services"}
                   animated
                   color="red"
+                  className="btn-fluid"
                 >
                   <Button.Content visible>Learn more</Button.Content>
                   <Button.Content hidden>
@@ -227,6 +231,7 @@ const Home = () => {
                   to={"/professional-services"}
                   animated
                   color="red"
+                  className="btn-fluid"
                 >
                   <Button.Content visible>Learn more</Button.Content>
                   <Button.Content hidden>
@@ -252,7 +257,13 @@ const Home = () => {
               our resources.
             </p>
             <br />
-            <Button as={Link} to={"/resource-center"} animated color="red">
+            <Button
+              as={Link}
+              to={"/resource-center"}
+              animated
+              color="red"
+              className="btn-fluid"
+            >
               <Button.Content visible>Resources</Button.Content>
               <Button.Content hidden>
                 <Icon name="file alternate" />
@@ -268,7 +279,13 @@ const Home = () => {
               solutions to their security challenges.
             </p>
             <br />
-            <Button as={Link} to={"/industries"} animated color="red">
+            <Button
+              as={Link}
+              to={"/industries"}
+              animated
+              color="red"
+              className="btn-fluid"
+            >
               <Button.Content visible>Industries</Button.Content>
               <Button.Content hidden>
                 <Icon name="industry" />
@@ -292,7 +309,13 @@ const Home = () => {
             </p>
             <br />
             <br />
-            <Button as={Link} to={"/contact-us"} animated color="red">
+            <Button
+              as={Link}
+              to={"/contact-us"}
+              animated
+              color="red"
+              className="btn-fluid"
+            >
               <Button.Content visible>Contact us</Button.Content>
               <Button.Content hidden>
                 <Icon name="phone" />

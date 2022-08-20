@@ -59,7 +59,7 @@ const NewsFeed = () => {
         to={"/resource-center"}
         animated
         color="red"
-        className="this-btn"
+        className="this-btn btn-fluid"
       >
         <Button.Content visible>More news</Button.Content>
         <Button.Content hidden>
