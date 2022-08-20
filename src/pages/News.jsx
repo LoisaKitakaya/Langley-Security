@@ -38,7 +38,7 @@ const News = () => {
 
   if (loading)
     return (
-      <div className="has-text-centered is-flex is-justify-content-center is-align-items-center p-6">
+      <div className="has-text-centered is-flex is-justify-content-center is-align-items-center p-6 load-container">
         <img src={loader} alt="loader" />
         <p className="is-size-4 ml-3 has-text-dark">loading ....</p>
       </div>
