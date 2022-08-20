@@ -2,9 +2,11 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 
-import "./App.css";
 import Navbar from "./global/Navbar";
 import Footer from "./global/Footer";
+import ResourceCenter from "./pages/ResourceCenter";
+
+import "./App.css";
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/resource-center" element={<ResourceCenter />} />
       </Routes>
 
       {/* site routes */}

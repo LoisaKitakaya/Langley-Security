@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="global has-background-dark">
       {/* footer */}
       <Container>
-        <footer className="has-background-dark pt-6 pb-6">
+        <footer className="has-background-dark pt-6 pb-6 mr-3 ml-3 reframe">
           <div className="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
             <div className="citation-caption">
               <p className="has-text-light">
@@ -71,12 +71,6 @@ const Footer = () => {
                 className="has-text-light is-size-4"
               >
                 <Icon name="vimeo square" />
-              </a>
-              <a
-                href="https://twitter.com/FreedomLoisa"
-                className="has-text-light is-size-4"
-              >
-                <Icon name="facebook" />
               </a>
               <a
                 href="tel:+254 725 131 828"

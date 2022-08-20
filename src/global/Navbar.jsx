@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* navbar */}
       <Container>
         <nav
-          className="navbar is-dark"
+          className="navbar is-dark mr-3 ml-3 reframe"
           role="navigation"
           aria-label="main navigation"
         >
@@ -36,51 +36,69 @@ const Navbar = () => {
 
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-end">
-              <div className="navbar-item has-dropdown is-hoverable">
+              <div className="navbar-item has-dropdown is-hoverable pb-1">
                 <a className="navbar-link" href="#about-us">
                   About us
                 </a>
 
-                <div className="navbar-dropdown">
-                  <Link to={"/who-we-are"} className="navbar-item">
-                    Who we are
+                <div className="navbar-dropdown has-background-light">
+                  <Link to={"/why-us"} className="navbar-item navbar-h-item">
+                    Why us
                   </Link>
-                  <Link to={"/what-we-do"} className="navbar-item">
+                  <Link
+                    to={"/what-we-do"}
+                    className="navbar-item navbar-h-item"
+                  >
                     What we do
                   </Link>
-                  <Link to={"/board-of-directors"} className="navbar-item">
-                    Board of directors
+                  <Link
+                    to={"/who-we-are"}
+                    className="navbar-item navbar-h-item"
+                  >
+                    Who we are
                   </Link>
                   <Link
                     to={"/business-leadership-team"}
-                    className="navbar-item"
+                    className="navbar-item navbar-h-item"
                   >
                     Leadership team
                   </Link>
+                  <Link
+                    to={"/board-of-directors"}
+                    className="navbar-item navbar-h-item"
+                  >
+                    Board of directors
+                  </Link>
                 </div>
               </div>
-              <div className="navbar-item has-dropdown is-hoverable">
+              <div className="navbar-item has-dropdown is-hoverable pb-1">
                 <a className="navbar-link" href="#services">
                   Our services
                 </a>
 
-                <div className="navbar-dropdown">
-                  <Link to={"/security-services"} className="navbar-item">
+                <div className="navbar-dropdown has-background-light">
+                  <Link
+                    to={"/security-services"}
+                    className="navbar-item navbar-h-item"
+                  >
                     Security services
                   </Link>
-                  <Link to={"/technology-services"} className="navbar-item">
+                  <Link
+                    to={"/technology-services"}
+                    className="navbar-item navbar-h-item"
+                  >
                     Technology services
                   </Link>
-                  <Link to={"/professional-services"} className="navbar-item">
+                  <Link
+                    to={"/professional-services"}
+                    className="navbar-item navbar-h-item"
+                  >
                     Professional services
                   </Link>
                 </div>
               </div>
-              <Link to={"/media-center"} className="navbar-item">
-                Media center
-              </Link>
-              <Link to={"/why-us"} className="navbar-item">
-                Why us
+              <Link to={"/resource-center"} className="navbar-item">
+                Resource Center
               </Link>
               <Link to={"/contact-us"} className="navbar-item">
                 Contact us
@@ -101,35 +119,77 @@ const Navbar = () => {
         vertical
         visible={visible}
       >
-        <Menu.Item as="a" header onClick={() => setVisible(false)}>
-          <Link to={"/"}>
-            <Icon name="home" />
-            Home
-          </Link>
+        <Menu.Item as={Link} to={"/"} header onClick={() => setVisible(false)}>
+          <Icon name="home" size="mini" />
+          Home
         </Menu.Item>
-        <Menu.Item as="a" onClick={() => setVisible(false)}>
-          <Link to={"/services"}>Our services</Link>
+        <Menu.Item
+          as={Link}
+          to={"/contact-us"}
+          onClick={() => setVisible(false)}
+        >
+          <Icon name="phone" size="mini" />
+          Contact us
         </Menu.Item>
-        <Menu.Item as="a" onClick={() => setVisible(false)}>
-          <Link to={"/media-center"}>Media center</Link>
+        <Menu.Item
+          as={Link}
+          to={"/resource-center"}
+          onClick={() => setVisible(false)}
+        >
+          <Icon name="file alternate" size="mini" />
+          Resource Center
         </Menu.Item>
-        <Menu.Item as="a" onClick={() => setVisible(false)}>
-          <Link to={"/why-us"}>Why us</Link>
+        <Menu.Item
+          as={Link}
+          to={"/security-services"}
+          onClick={() => setVisible(false)}
+        >
+          Security services
         </Menu.Item>
-        <Menu.Item as="a" onClick={() => setVisible(false)}>
-          <Link to={"contact-us"}>Contact us</Link>
+        <Menu.Item
+          as={Link}
+          to={"/technology-services"}
+          onClick={() => setVisible(false)}
+        >
+          Technology services
         </Menu.Item>
-        <Menu.Item as="a" onClick={() => setVisible(false)}>
-          <Link to={"who-we-are"}>Who we are</Link>
+        <Menu.Item
+          as={Link}
+          to={"/professional-services"}
+          onClick={() => setVisible(false)}
+        >
+          Professional services
         </Menu.Item>
-        <Menu.Item as="a" onClick={() => setVisible(false)}>
-          <Link to={"what-we-do"}>What we do</Link>
+        <Menu.Item as={Link} to={"/why-us"} onClick={() => setVisible(false)}>
+          Why us
         </Menu.Item>
-        <Menu.Item as="a" onClick={() => setVisible(false)}>
-          <Link to={"/board-of-directors"}>Board of directors</Link>
+        <Menu.Item
+          as={Link}
+          to={"/who-we-are"}
+          onClick={() => setVisible(false)}
+        >
+          Who we are
         </Menu.Item>
-        <Menu.Item as="a" onClick={() => setVisible(false)}>
-          <Link to={"/business-leadership-team"}>Business leadership team</Link>
+        <Menu.Item
+          as={Link}
+          to={"/what-we-do"}
+          onClick={() => setVisible(false)}
+        >
+          What we do
+        </Menu.Item>
+        <Menu.Item
+          as={Link}
+          to={"/board-of-directors"}
+          onClick={() => setVisible(false)}
+        >
+          Board of directors
+        </Menu.Item>
+        <Menu.Item
+          as={Link}
+          to={"/business-leadership-team"}
+          onClick={() => setVisible(false)}
+        >
+          Business leadership team
         </Menu.Item>
       </Sidebar>
       {/* sidebar */}

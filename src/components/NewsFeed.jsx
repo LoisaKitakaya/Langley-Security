@@ -6,7 +6,7 @@ import loader from "../assets/Broken circle.gif";
 
 const GET_RECENT_FEED = gql`
   query GetRecentFeed {
-    newsModels(last: 361) {
+    newsModels(last: 3) {
       id
       newsHeadline
       newsSlug
@@ -29,6 +29,7 @@ const NewsFeed = () => {
         <p className="is-size-4 ml-3 has-text-dark">loading ....</p>
       </div>
     );
+
   if (error) return `Error! ${error.message}`;
 
   return (
@@ -43,7 +44,9 @@ const NewsFeed = () => {
                   header={item.newsHeadline}
                   meta={item.publishedDate}
                 />
-                <Link to={`/feed/${item.newsSlug}`} className="view-news-link">Read</Link>
+                <Link to={`/feed/${item.newsSlug}`} className="view-news-link">
+                  Read more
+                </Link>
               </Item>
             </>
           );
@@ -51,7 +54,10 @@ const NewsFeed = () => {
           return list;
         })}
       </Item.Group>
-      <Link to={"/media-center"} className="button is-danger resized-btn this-btn">
+      <Link
+        to={"/resource-center"}
+        className="button is-danger resized-btn this-btn"
+      >
         More news
       </Link>
     </div>

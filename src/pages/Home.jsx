@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Container, Button, Icon } from "semantic-ui-react";
+
 import ImageGallery from "react-image-gallery";
 
 import PageTitle from "../components/PageTitle";
@@ -32,42 +33,38 @@ const Home = () => {
     <div className="page">
       {/* intro */}
       <Container>
-        <div className="is-flex intro-container mt-6 mb-6 card-setting">
-          <div className="content-player">
-            {/* iframe for responsive behavior */}
-            <div className="mobile-player">
-              <iframe
-                title="Flowers"
-                src="https://player.vimeo.com/video/707084804?h=c5514b7eb9"
-                width="640"
-                height="360"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-            {/* iframe for responsive behavior */}
+        <div className="is-flex intro-container has-background-light mt-6 mb-6 card-shadow rounded">
+          {/* iframe for responsive behavior */}
+          <div className="mobile-player">
+            <iframe
+              title="Flowers"
+              src="https://player.vimeo.com/video/707084804?h=c5514b7eb9"
+              width="640"
+              height="360"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
-          <div className="has-background-light">
-            <div className="intro-content">
-              <h1 className="is-size-1">There for you</h1>
-              <br />
-              <p className="is-size-5">
-                Since 2012, we have forged our organization under a single
-                purpose: to keep people, businesses, and communities safe so we
-                can all thrive together.
-              </p>
-              <br />
-              <Button.Group>
-                <Link to={"/who-we-are"} className="button is-danger">
-                  Who we are
-                </Link>
-                <Link to={"/what-we-do"} className="button is-danger">
-                  What we do
-                </Link>
-              </Button.Group>
-              <br />
-            </div>
+          {/* iframe for responsive behavior */}
+          <div className="intro-content">
+            <h1 className="is-size-1 ml-6 mt-5 reframe">There for you</h1>
+            <br />
+            <p className="is-size-5 ml-6 mr-6 reframe">
+              Since 2012, we have forged our organization under a single
+              purpose: to keep people, businesses, and communities safe so we
+              can all thrive together.
+            </p>
+            <br />
+            <Button.Group className="ml-6 reframe p-bot">
+              <Link to={"/who-we-are"} className="button is-danger">
+                Who we are
+              </Link>
+              <Link to={"/what-we-do"} className="button is-danger">
+                What we do
+              </Link>
+            </Button.Group>
+            <br />
           </div>
         </div>
       </Container>
@@ -84,7 +81,7 @@ const Home = () => {
 
       {/* pitch */}
       <Container>
-        <div className="has-background-light is-flex mb-6 p-6 card-setting pitch-container">
+        <div className="has-background-light is-flex mb-6 p-6 card-shadow rounded pitch-container">
           <div className="has-text-centered m-4 has-background-dark box has-text-light">
             <Icon name="handshake" size="huge" />
             <br />
@@ -151,7 +148,7 @@ const Home = () => {
         </div>
         <Container>
           <div className="is-flex is-justify-content-space-between services-container">
-            <div className="card m-3 has-background-light card-setting">
+            <div className="card m-3 has-background-light card-shadow">
               <div className="card-image">
                 <img
                   className="image"
@@ -170,7 +167,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="card m-3 has-background-light card-setting">
+            <div className="card m-3 has-background-light card-shadow">
               <div className="card-image">
                 <img
                   className="image"
@@ -189,7 +186,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="card m-3 has-background-light card-setting">
+            <div className="card m-3 has-background-light card-shadow">
               <div className="card-image">
                 <img
                   className="image"
@@ -215,7 +212,7 @@ const Home = () => {
 
       {/* resources */}
       <Container>
-        <div className="is-flex mb-6 p-6 has-background-light card-setting resources-container">
+        <div className="is-flex mb-6 p-6 has-background-light card-shadow resources-container rounded">
           <div className="has-text-centered m-4 box has-background-dark has-text-light pinch-2">
             <h3 className="is-size-3">The State of Security Today</h3>
             <br />
@@ -225,7 +222,10 @@ const Home = () => {
               our resources.
             </p>
             <br />
-            <Link to={"/media-center"} className="button is-danger resized-btn">
+            <Link
+              to={"/resource-center"}
+              className="button is-danger resized-btn"
+            >
               Resources
             </Link>
           </div>
@@ -248,7 +248,7 @@ const Home = () => {
 
       {/* outro */}
       <Container>
-        <div className="is-flex mb-6 has-background-light card-setting contact-container">
+        <div className="is-flex mb-6 has-background-light card-shadow contact-container rounded">
           <div className="outro-container p-6 has-text-light">
             <h3 className="is-size-3">Contact us</h3>
             <br />
