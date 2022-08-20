@@ -1,9 +1,10 @@
 import { gql, useQuery } from "@apollo/client";
-import { useParams } from "react-router-dom";
-import { Container, Image, Item } from "semantic-ui-react";
+import { Link, useParams } from "react-router-dom";
+import { Container, Image, Item, Breadcrumb } from "semantic-ui-react";
+
+import PageTitle from "../components/PageTitle";
 
 import loader from "../assets/Broken circle.gif";
-import PageTitle from "../components/PageTitle";
 
 const GET_ARTICLE = gql`
   query GetNews($slug: String!) {
@@ -48,9 +49,29 @@ const News = () => {
 
   return (
     <div className="page">
+      {/* breadcrumb */}
+      <Container>
+        <div className="mt-3 mb-3 ml-3">
+          <Breadcrumb>
+            <Breadcrumb.Section link as={Link} to={"/"}>
+              Home
+            </Breadcrumb.Section>
+            <Breadcrumb.Divider />
+            <Breadcrumb.Section link as={Link} to={"/resource-center"}>
+              Resources
+            </Breadcrumb.Section>
+            <Breadcrumb.Divider />
+            <Breadcrumb.Section active>
+              {data.newsModel.newsHeadline}
+            </Breadcrumb.Section>
+          </Breadcrumb>
+        </div>
+      </Container>
+      {/* breadcrumb */}
+
       {/* article */}
       <Container>
-        <div className="p-3 mt-6 mb-6 card-shadow rounded has-background-light">
+        <div className="p-3 mb-6 card-shadow rounded has-background-light">
           <div className="is-flex is-justify-content-space-between is-align-items-center mb-3 pl-3 pr-3">
             <p className="has-text-grey">
               <span className="to-hide">Title:</span>{" "}

@@ -1,4 +1,6 @@
-import { Container, Tab } from "semantic-ui-react";
+import { Container, Tab, Breadcrumb } from "semantic-ui-react";
+import { Link } from "react-router-dom";
+
 import AllArticles from "../components/AllArticles";
 import AllNews from "../components/AllNews";
 import PageTitle from "../components/PageTitle";
@@ -29,9 +31,23 @@ const ResourceCenter = () => {
 
   return (
     <div className="page">
+      {/* breadcrumb */}
+      <Container>
+        <div className="mt-3 mb-3 ml-3">
+          <Breadcrumb>
+            <Breadcrumb.Section link as={Link} to={"/"}>
+              Home
+            </Breadcrumb.Section>
+            <Breadcrumb.Divider />
+            <Breadcrumb.Section active>Resources</Breadcrumb.Section>
+          </Breadcrumb>
+        </div>
+      </Container>
+      {/* breadcrumb */}
+
       {/* menu */}
       <Container>
-        <div className="p-3 mt-6 mb-6 card-shadow rounded has-background-light">
+        <div className="p-3 mb-6 card-shadow rounded has-background-light">
           <Tab
             menu={{
               pointing: true,
