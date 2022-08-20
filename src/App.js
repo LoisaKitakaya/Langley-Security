@@ -9,6 +9,7 @@ import ResourceCenter from "./pages/ResourceCenter";
 import "./App.css";
 import News from "./pages/News";
 import Article from "./pages/Article";
+import Contacts from "./pages/Contacts";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/resource-center" element={<ResourceCenter />} />
         <Route path="/feed/:slug" element={<News />} />
         <Route path="/blog/:slug" element={<Article />} />
+        <Route path="/contact-us" element={<Contacts />} />
       </Routes>
 
       {/* site routes */}
