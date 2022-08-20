@@ -42,33 +42,27 @@ const Navbar = () => {
                 </a>
 
                 <div className="navbar-dropdown has-background-light">
-                  <Link to={"/why-us"} className="navbar-item navbar-h-item">
+                  <a href="/why-us" className="navbar-item navbar-h-item">
                     Why us
-                  </Link>
-                  <Link
-                    to={"/what-we-do"}
-                    className="navbar-item navbar-h-item"
-                  >
+                  </a>
+                  <a href="/what-we-do" className="navbar-item navbar-h-item">
                     What we do
-                  </Link>
-                  <Link
-                    to={"/who-we-are"}
-                    className="navbar-item navbar-h-item"
-                  >
+                  </a>
+                  <a href="/who-we-are" className="navbar-item navbar-h-item">
                     Who we are
-                  </Link>
-                  <Link
-                    to={"/business-leadership-team"}
+                  </a>
+                  <a
+                    href="/business-leadership-team"
                     className="navbar-item navbar-h-item"
                   >
                     Leadership team
-                  </Link>
-                  <Link
-                    to={"/board-of-directors"}
+                  </a>
+                  <a
+                    href="/board-of-directors"
                     className="navbar-item navbar-h-item"
                   >
                     Board of directors
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className="navbar-item has-dropdown is-hoverable pb-1">
@@ -77,24 +71,24 @@ const Navbar = () => {
                 </a>
 
                 <div className="navbar-dropdown has-background-light">
-                  <Link
-                    to={"/security-services"}
+                  <a
+                    href="/security-services"
                     className="navbar-item navbar-h-item"
                   >
                     Security services
-                  </Link>
-                  <Link
-                    to={"/technology-services"}
+                  </a>
+                  <a
+                    href="/technology-services"
                     className="navbar-item navbar-h-item"
                   >
                     Technology services
-                  </Link>
-                  <Link
-                    to={"/professional-services"}
+                  </a>
+                  <a
+                    href="/professional-services"
                     className="navbar-item navbar-h-item"
                   >
                     Professional services
-                  </Link>
+                  </a>
                 </div>
               </div>
               <Link to={"/industries"} className="navbar-item">
