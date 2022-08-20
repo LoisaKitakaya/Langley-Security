@@ -97,6 +97,9 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>
+              <Link to={"/industries"} className="navbar-item">
+                Industries
+              </Link>
               <Link to={"/resource-center"} className="navbar-item">
                 Resource Center
               </Link>
@@ -141,9 +144,18 @@ const Navbar = () => {
         </Menu.Item>
         <Menu.Item
           as={Link}
+          to={"/industries"}
+          onClick={() => setVisible(false)}
+        >
+          <Icon name="industry" size="mini" />
+          Industries
+        </Menu.Item>
+        <Menu.Item
+          as={Link}
           to={"/security-services"}
           onClick={() => setVisible(false)}
         >
+          <Icon name="user secret" size="mini" />
           Security services
         </Menu.Item>
         <Menu.Item
@@ -151,6 +163,7 @@ const Navbar = () => {
           to={"/technology-services"}
           onClick={() => setVisible(false)}
         >
+          <Icon name="computer" size="mini" />
           Technology services
         </Menu.Item>
         <Menu.Item
@@ -158,9 +171,11 @@ const Navbar = () => {
           to={"/professional-services"}
           onClick={() => setVisible(false)}
         >
+          <Icon name="chess" size="mini" />
           Professional services
         </Menu.Item>
         <Menu.Item as={Link} to={"/why-us"} onClick={() => setVisible(false)}>
+          <Icon name="question" size="mini" />
           Why us
         </Menu.Item>
         <Menu.Item
@@ -168,6 +183,7 @@ const Navbar = () => {
           to={"/who-we-are"}
           onClick={() => setVisible(false)}
         >
+          <Icon name="question" size="mini" />
           Who we are
         </Menu.Item>
         <Menu.Item
@@ -175,6 +191,7 @@ const Navbar = () => {
           to={"/what-we-do"}
           onClick={() => setVisible(false)}
         >
+          <Icon name="question" size="mini" />
           What we do
         </Menu.Item>
         <Menu.Item
@@ -182,6 +199,7 @@ const Navbar = () => {
           to={"/board-of-directors"}
           onClick={() => setVisible(false)}
         >
+          <Icon name="users" size="mini" />
           Board of directors
         </Menu.Item>
         <Menu.Item
@@ -189,6 +207,7 @@ const Navbar = () => {
           to={"/business-leadership-team"}
           onClick={() => setVisible(false)}
         >
+          <Icon name="users" size="mini" />
           Business leadership team
         </Menu.Item>
       </Sidebar>
