@@ -57,12 +57,18 @@ const Home = () => {
             </p>
             <br />
             <Button.Group className="ml-6 reframe p-bot">
-              <Link to={"/who-we-are"} className="button is-danger">
-                Who we are
-              </Link>
-              <Link to={"/what-we-do"} className="button is-danger">
-                What we do
-              </Link>
+              <Button as={Link} to={"/who-we-re"} animated color="red">
+                <Button.Content visible>Who we are</Button.Content>
+                <Button.Content hidden>
+                  <Icon name="arrow right" />
+                </Button.Content>
+              </Button>
+              <Button as={Link} to={"/what-we-do"} animated color="red">
+                <Button.Content visible>What we do</Button.Content>
+                <Button.Content hidden>
+                  <Icon name="arrow right" />
+                </Button.Content>
+              </Button>
             </Button.Group>
             <br />
           </div>
@@ -94,9 +100,12 @@ const Home = () => {
               out in our deeds and actions, every day.
             </p>
             <br />
-            <Link to={"/contact-us"} className="button is-danger resized-btn">
-              Contact us
-            </Link>
+            <Button as={Link} to={"/contact-us"} animated color="red">
+              <Button.Content visible>Contact us</Button.Content>
+              <Button.Content hidden>
+                <Icon name="phone" />
+              </Button.Content>
+            </Button>
           </div>
           <div className="has-text-centered m-4 has-background-dark box has-text-light">
             <Icon name="map marker alternate" size="huge" />
@@ -110,9 +119,12 @@ const Home = () => {
               office here.
             </p>
             <br />
-            <Link to={"/locations"} className="button is-danger resized-btn">
-              Locations
-            </Link>
+            <Button as={Link} to={"/locations"} animated color="red">
+              <Button.Content visible>Locations</Button.Content>
+              <Button.Content hidden>
+                <Icon name="map" />
+              </Button.Content>
+            </Button>
           </div>
           <div className="has-text-centered m-4 has-background-dark box has-text-light">
             <Icon name="users" size="huge" />
@@ -126,9 +138,12 @@ const Home = () => {
               family member or neighbor today.
             </p>
             <br />
-            <Link to={"/careers"} className="button is-danger resized-btn">
-              Careers
-            </Link>
+            <Button as={Link} to={"/careers"} animated color="red">
+              <Button.Content visible>Careers</Button.Content>
+              <Button.Content hidden>
+                <Icon name="briefcase" />
+              </Button.Content>
+            </Button>
           </div>
         </div>
       </Container>
@@ -159,12 +174,17 @@ const Home = () => {
               <div className="card-content">
                 <h3 className="is-size-3">Security services</h3>
                 <br />
-                <Link
+                <Button
+                  as={Link}
                   to={"/security-services"}
-                  className="button is-danger resized-btn"
+                  animated
+                  color="red"
                 >
-                  Learn more
-                </Link>
+                  <Button.Content visible>Learn more</Button.Content>
+                  <Button.Content hidden>
+                    <Icon name="arrow right" />
+                  </Button.Content>
+                </Button>
               </div>
             </div>
             <div className="card m-3 has-background-light card-shadow">
@@ -178,12 +198,17 @@ const Home = () => {
               <div className="card-content">
                 <h3 className="is-size-3">Technology services</h3>
                 <br />
-                <Link
+                <Button
+                  as={Link}
                   to={"/technology-services"}
-                  className="button is-danger resized-btn"
+                  animated
+                  color="red"
                 >
-                  Learn more
-                </Link>
+                  <Button.Content visible>Learn more</Button.Content>
+                  <Button.Content hidden>
+                    <Icon name="arrow right" />
+                  </Button.Content>
+                </Button>
               </div>
             </div>
             <div className="card m-3 has-background-light card-shadow">
@@ -197,12 +222,17 @@ const Home = () => {
               <div className="card-content">
                 <h3 className="is-size-3">Professional services</h3>
                 <br />
-                <Link
+                <Button
+                  as={Link}
                   to={"/professional-services"}
-                  className="button is-danger resized-btn"
+                  animated
+                  color="red"
                 >
-                  Learn more
-                </Link>
+                  <Button.Content visible>Learn more</Button.Content>
+                  <Button.Content hidden>
+                    <Icon name="arrow right" />
+                  </Button.Content>
+                </Button>
               </div>
             </div>
           </div>
@@ -222,12 +252,12 @@ const Home = () => {
               our resources.
             </p>
             <br />
-            <Link
-              to={"/resource-center"}
-              className="button is-danger resized-btn"
-            >
-              Resources
-            </Link>
+            <Button as={Link} to={"/resource-center"} animated color="red">
+              <Button.Content visible>Resources</Button.Content>
+              <Button.Content hidden>
+                <Icon name="file alternate" />
+              </Button.Content>
+            </Button>
           </div>
           <div className="has-text-centered m-4 box has-background-dark has-text-light pinch-2">
             <h3 className="is-size-3">Vertically Focused Solutions</h3>
@@ -238,9 +268,12 @@ const Home = () => {
               solutions to their security challenges.
             </p>
             <br />
-            <Link to={"/careers"} className="button is-danger resized-btn">
-              Careers
-            </Link>
+            <Button as={Link} to={"/industries"} animated color="red">
+              <Button.Content visible>Industries</Button.Content>
+              <Button.Content hidden>
+                <Icon name="industry" />
+              </Button.Content>
+            </Button>
           </div>
         </div>
       </Container>
@@ -259,9 +292,12 @@ const Home = () => {
             </p>
             <br />
             <br />
-            <Link to={"/contact-us"} className="button is-danger resized-btn">
-              Contact us
-            </Link>
+            <Button as={Link} to={"/contact-us"} animated color="red">
+              <Button.Content visible>Contact us</Button.Content>
+              <Button.Content hidden>
+                <Icon name="phone" />
+              </Button.Content>
+            </Button>
           </div>
           <div className="news-container p-6">
             <h3 className="is-size-3">News</h3>
