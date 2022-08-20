@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Container, Icon } from "semantic-ui-react";
 
-import "../global/css/Footer.css";
+import "../global/css/layout.css";
 
 const Footer = () => {
   return (

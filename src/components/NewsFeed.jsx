@@ -51,7 +51,7 @@ const NewsFeed = () => {
           return list;
         })}
       </Item.Group>
-      <Link to={"/media-center"} className="button is-danger resized-btn">
+      <Link to={"/media-center"} className="button is-danger resized-btn this-btn">
         More news
       </Link>
     </div>

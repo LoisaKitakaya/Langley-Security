@@ -43,5 +43,6 @@ body {
 @media screen and (max-width: 600px) {
   .image-gallery-slide .image-gallery-description {
     bottom: 10px !important;
+    left: 23.5% !important;
   }
 }

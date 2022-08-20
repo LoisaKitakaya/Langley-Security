@@ -2,12 +2,10 @@ import { Link } from "react-router-dom";
 import { Container, Button, Icon } from "semantic-ui-react";
 import ImageGallery from "react-image-gallery";
 
-import ReactPlayer from "react-player";
-
 import PageTitle from "../components/PageTitle";
 import NewsFeed from "../components/NewsFeed";
 
-import "../pages/css/Home.css";
+import "../pages/css/pages.css";
 
 const images = [
   {
@@ -36,7 +34,19 @@ const Home = () => {
       <Container>
         <div className="is-flex intro-container mt-6 mb-6 card-setting">
           <div className="content-player">
-            <ReactPlayer url="https://vimeo.com/255170713" />
+            {/* iframe for responsive behavior */}
+            <div className="mobile-player">
+              <iframe
+                title="Flowers"
+                src="https://player.vimeo.com/video/707084804?h=c5514b7eb9"
+                width="640"
+                height="360"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            {/* iframe for responsive behavior */}
           </div>
           <div className="has-background-light">
             <div className="intro-content">

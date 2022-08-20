@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Sidebar, Menu, Icon } from "semantic-ui-react";
 
-import "../global/css/Navbar.css";
+import "../global/css/layout.css";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
