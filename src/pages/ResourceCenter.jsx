@@ -1,6 +1,7 @@
 import { Container, Tab } from "semantic-ui-react";
 import AllArticles from "../components/AllArticles";
 import AllNews from "../components/AllNews";
+import PageTitle from "../components/PageTitle";
 
 import "../pages/css/pages.css";
 
@@ -24,6 +25,8 @@ const panes = [
 ];
 
 const ResourceCenter = () => {
+  PageTitle("Resources");
+
   return (
     <div className="page">
       {/* menu */}

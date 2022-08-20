@@ -1,6 +1,8 @@
 import { gql, useQuery } from "@apollo/client";
 import { useParams } from "react-router-dom";
-import { Container, Image, Item, } from "semantic-ui-react";
+import { Container, Image, Item } from "semantic-ui-react";
+
+import PageTitle from "../components/PageTitle";
 
 import loader from "../assets/Broken circle.gif";
 
@@ -29,6 +31,8 @@ const GET_ARTICLE = gql`
 
 const Article = () => {
   const slug = useParams();
+
+  PageTitle(`${slug.slug}`);
 
   const { loading, error, data } = useQuery(GET_ARTICLE, {
     variables: { slug: slug.slug },

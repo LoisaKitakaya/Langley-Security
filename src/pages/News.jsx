@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { Container, Image, Item } from "semantic-ui-react";
 
 import loader from "../assets/Broken circle.gif";
+import PageTitle from "../components/PageTitle";
 
 const GET_ARTICLE = gql`
   query GetNews($slug: String!) {
@@ -28,6 +29,8 @@ const GET_ARTICLE = gql`
 
 const News = () => {
   const slug = useParams();
+
+  PageTitle(`${slug.slug}`);
 
   const { loading, error, data } = useQuery(GET_ARTICLE, {
     variables: { slug: slug.slug },
