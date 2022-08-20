@@ -1,6 +1,6 @@
 import { gql, useQuery } from "@apollo/client";
-import { Link, useParams } from "react-router-dom";
-import { Container, Image, Item, Button, Icon } from "semantic-ui-react";
+import { useParams } from "react-router-dom";
+import { Container, Image, Item, } from "semantic-ui-react";
 
 import loader from "../assets/Broken circle.gif";
 
@@ -14,10 +14,6 @@ const GET_ARTICLE = gql`
       }
       content {
         html
-      }
-      tags {
-        tag
-        tagSlug
       }
       companyAuthor {
         authorName
@@ -74,33 +70,6 @@ const Article = () => {
         </div>
       </Container>
       {/* article */}
-
-      {/* tags */}
-      <Container>
-        <div className="mb-6 is-flex is-justify-content-center is-align-items-center">
-          {data.article.tags.map((item) => {
-            const list = (
-              <>
-                <div key={item.id} className="ml-1 mr-1">
-                  <Button
-                    compact
-                    circular
-                    as={Link}
-                    size="small"
-                    to={`/tag/${item.tagSlug}`}
-                    className="card-shadow"
-                  >
-                    <Icon name="tags" /> {item.tag}
-                  </Button>
-                </div>
-              </>
-            );
-
-            return list;
-          })}
-        </div>
-      </Container>
-      {/* tags */}
 
       {/* author */}
       <Container>
