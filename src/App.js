@@ -7,6 +7,8 @@ import Footer from "./global/Footer";
 import ResourceCenter from "./pages/ResourceCenter";
 
 import "./App.css";
+import News from "./pages/News";
+import Article from "./pages/Article";
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/resource-center" element={<ResourceCenter />} />
+        <Route path="/feed/:slug" element={<News />} />
+        <Route path="/blog/:slug" element={<Article />} />
       </Routes>
 
       {/* site routes */}

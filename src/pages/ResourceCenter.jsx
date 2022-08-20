@@ -29,9 +29,6 @@ const ResourceCenter = () => {
       {/* menu */}
       <Container>
         <div className="p-3 mt-6 mb-6 card-shadow rounded has-background-light">
-          <h3 className="is-size-3 has-text-centered mb-3">
-            Resource Center
-          </h3>
           <Tab
             menu={{
               pointing: true,

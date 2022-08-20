@@ -42,7 +42,7 @@ const AllArticles = () => {
                 <Item.Image size="small" src={item.articleThumbnail.url} />
 
                 <Item.Content>
-                  <Item.Header as={Link} to={`/feed/${item.articleSlug}`}>
+                  <Item.Header as={Link} to={`/blog/${item.articleSlug}`}>
                     <div className="is-flex is-align-items-center is-justify-content-space-between">
                       <Icon
                         name="linkify"

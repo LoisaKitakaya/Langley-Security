@@ -8,8 +8,8 @@
 }
 
 .card-shadow {
-  -webkit-box-shadow: 5px 5px 15px -5px #000000;
-  box-shadow: 5px 5px 15px -5px #000000;
+  -webkit-box-shadow: 5px 5px 15px -5px #000000 !important;
+  box-shadow: 5px 5px 15px -5px #000000 !important;
 }
 
 .rounded {
@@ -134,5 +134,9 @@ iframe {
 
   .p-bot {
     padding-bottom: 2rem;
+  }
+
+  .to-hide {
+    display: none !important;
   }
 }
