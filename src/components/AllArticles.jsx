@@ -6,7 +6,7 @@ import loader from "../assets/Broken circle.gif";
 
 const GET_ALL_Articles = gql`
   query GetAllArticles {
-    articles {
+    articles(orderBy: createdAt_DESC) {
       id
       title
       articleSlug

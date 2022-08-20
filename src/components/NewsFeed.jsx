@@ -6,7 +6,7 @@ import loader from "../assets/Broken circle.gif";
 
 const GET_RECENT_FEED = gql`
   query GetRecentFeed {
-    newsModels(last: 3) {
+    newsModels(last: 3, orderBy: createdAt_DESC) {
       id
       newsHeadline
       newsSlug
