@@ -10,6 +10,7 @@ import {
 import { Link } from "react-router-dom";
 
 import "../pages/css/pages.css";
+import ContactForm from "../components/ContactForm";
 
 const Contacts = () => {
   return (
@@ -75,7 +76,7 @@ const Contacts = () => {
               </Card>
               <br />
               <Card className="has-background-light contact-card card-shadow">
-                <Card.Content header="Langley Security careers" />
+                <Card.Content header="Work at Langley Security" />
                 <Card.Content>
                   <Card.Description>
                     <p>
@@ -99,6 +100,32 @@ const Contacts = () => {
                   </Card.Description>
                 </Card.Content>
               </Card>
+              <br />
+              <Card className="has-background-light contact-card card-shadow">
+                <Card.Content header="Industries we serve" />
+                <Card.Content>
+                  <Card.Description>
+                    <p>
+                      Check out the industries we serve and see how we can help.
+                    </p>
+                    <br />
+                    <div className="is-flex is-justify-content-space-between contact-card-btns">
+                      <Button
+                        as={Link}
+                        to={"/industries"}
+                        animated
+                        color="red"
+                        className="btn-fluid-2"
+                      >
+                        <Button.Content visible>Industries</Button.Content>
+                        <Button.Content hidden>
+                          <Icon name="industry" />
+                        </Button.Content>
+                      </Button>
+                    </div>
+                  </Card.Description>
+                </Card.Content>
+              </Card>
             </div>
             <div class="column is-8">
               <div className="box has-background-light card-shadow">
@@ -111,130 +138,7 @@ const Contacts = () => {
                   services.
                 </p>
                 <Divider />
-                <form className="has-background-light has-text-left">
-                  <div className="columns">
-                    <div class="field column">
-                      <label class="label">Name</label>
-                      <div class="control">
-                        <input
-                          class="input"
-                          type="text"
-                          placeholder="Text input"
-                        />
-                      </div>
-                    </div>
-                    <div class="field column">
-                      <label class="label">Name</label>
-                      <div class="control">
-                        <input
-                          class="input"
-                          type="text"
-                          placeholder="Text input"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="field">
-                    <label class="label">Name</label>
-                    <div class="control">
-                      <input
-                        class="input"
-                        type="text"
-                        placeholder="Text input"
-                      />
-                    </div>
-                  </div>
-                  <div class="field">
-                    <label class="label">Name</label>
-                    <div class="control">
-                      <input
-                        class="input"
-                        type="text"
-                        placeholder="Text input"
-                      />
-                    </div>
-                  </div>
-                  <div class="field mb-6">
-                    <label class="label">Name</label>
-                    <div class="control">
-                      <input
-                        class="input"
-                        type="text"
-                        placeholder="Text input"
-                      />
-                    </div>
-                  </div>
-                  <div className="columns">
-                    <div class="field column">
-                      <label class="label">Name</label>
-                      <div class="control">
-                        <input
-                          class="input"
-                          type="text"
-                          placeholder="Text input"
-                        />
-                      </div>
-                    </div>
-                    <div class="field column">
-                      <label class="label">Name</label>
-                      <div class="control">
-                        <input
-                          class="input"
-                          type="text"
-                          placeholder="Text input"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="columns">
-                    <div class="field column">
-                      <label class="label">Name</label>
-                      <div class="control">
-                        <input
-                          class="input"
-                          type="text"
-                          placeholder="Text input"
-                        />
-                      </div>
-                    </div>
-                    <div class="field column">
-                      <label class="label">Name</label>
-                      <div class="control">
-                        <input
-                          class="input"
-                          type="text"
-                          placeholder="Text input"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="field mb-3">
-                    <label class="label">Message</label>
-                    <div class="control">
-                      <textarea
-                        class="textarea"
-                        placeholder="Textarea"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <label class="checkbox mb-3">
-                    <input type="checkbox" /> I agree to the{" "}
-                    <Link to={"/terms-&-conditions"}>terms and conditions</Link>
-                  </label>
-                  <div class="control">
-                    <Button
-                      type="submit"
-                      animated
-                      color="green"
-                      className="btn-fluid-2"
-                    >
-                      <Button.Content visible>Submit</Button.Content>
-                      <Button.Content hidden>
-                        <Icon name="upload" />
-                      </Button.Content>
-                    </Button>
-                  </div>
-                </form>
+                <ContactForm />
               </div>
             </div>
           </div>

@@ -171,4 +171,13 @@ iframe,
   .contact-card-btns {
     flex-wrap: wrap !important;
   }
+
+  form .columns {
+    margin: 0.5rem 0 !important;
+  }
+
+  .img-dimensions {
+    width: auto !important;
+    height: auto !important;
+  }
 }
