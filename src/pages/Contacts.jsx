@@ -20,7 +20,7 @@ const Contacts = () => {
         <div className="mt-3 mb-3 ml-3">
           <Breadcrumb>
             <Breadcrumb.Section link as={Link} to={"/"}>
-              Home
+              <Icon name="home" /> Home
             </Breadcrumb.Section>
             <Breadcrumb.Divider />
             <Breadcrumb.Section active>Contact us</Breadcrumb.Section>

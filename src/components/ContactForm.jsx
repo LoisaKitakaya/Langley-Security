@@ -104,8 +104,23 @@ const ContactForm = () => {
               <option disabled selected>
                 Select service of interest
               </option>
-              <option>Select dropdown</option>
-              <option>With options</option>
+              <option value="security">Security services</option>
+              <option value="event">Event security services</option>
+              <option value="technology">
+                Technology {"&"} security systems
+              </option>
+              <option value="VIP">
+                Close monitoring {"&"} executive protection
+              </option>
+              <option value="consultancy">
+                Risk advisory {"&"} consultancy services
+              </option>
+              <option value="residential">
+                Residential {"&"} private property security
+              </option>
+              <option value="intelligence">
+                Private investigation {"&"} intelligence services
+              </option>
             </select>
           </div>
         </div>
@@ -118,8 +133,16 @@ const ContactForm = () => {
               <option disabled selected>
                 Select your industry
               </option>
-              <option>Select dropdown</option>
-              <option>With options</option>
+              <option value="real_estate">Commercial real estate</option>
+              <option value="construction">Construction</option>
+              <option value="education">Education</option>
+              <option value="finance">Finance</option>
+              <option value="healthcare">Healthcare</option>
+              <option value="retail">Retail</option>
+              <option value="transit">Transit</option>
+              <option value="residential">Residential</option>
+              <option value="logistics">Distribution {"&"} logistics</option>
+              <option value="hospitality">Hotel {"&"} hospitality</option>
             </select>
           </div>
         </div>

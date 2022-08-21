@@ -1,6 +1,6 @@
 import { gql, useQuery } from "@apollo/client";
 import { Link, useParams } from "react-router-dom";
-import { Container, Image, Item, Breadcrumb } from "semantic-ui-react";
+import { Container, Image, Item, Breadcrumb, Icon } from "semantic-ui-react";
 
 import PageTitle from "../components/PageTitle";
 
@@ -54,7 +54,7 @@ const News = () => {
         <div className="mt-3 mb-3 ml-3">
           <Breadcrumb>
             <Breadcrumb.Section link as={Link} to={"/"}>
-              Home
+              <Icon name="home" /> Home
             </Breadcrumb.Section>
             <Breadcrumb.Divider />
             <Breadcrumb.Section link as={Link} to={"/resource-center"}>
