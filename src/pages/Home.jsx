@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Container, Button, Icon } from "semantic-ui-react";
+import { Container, Button, Icon, Popup } from "semantic-ui-react";
 
 import ImageGallery from "react-image-gallery";
 
@@ -89,64 +89,84 @@ const Home = () => {
         </div>
         <Container>
           <div className="is-flex is-justify-content-space-between services-container">
-            <Link
-              to={"/security-services"}
-              className="card-shadow card-hover m-3"
-            >
-              <div className="card">
-                <div className="card-image">
-                  <img
-                    className="image"
-                    src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                    alt=""
-                  />
-                </div>
-                <div class="card-content has-background-red">
-                  <p class="content has-text-weight-bold has-text-light has-text-centered is-size-5">
-                    Security services
-                  </p>
-                </div>
-              </div>
-            </Link>
-
-            <Link
-              to={"/technology-services"}
-              className="card-shadow card-hover m-3"
-            >
-              <div className="card">
-                <div className="card-image">
-                  <img
-                    className="image"
-                    src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                    alt=""
-                  />
-                </div>
-                <div class="card-content has-background-red">
-                  <p class="content has-text-weight-bold has-text-light has-text-centered is-size-5">
-                    Technology services
-                  </p>
-                </div>
-              </div>
-            </Link>
-            <Link
-              to={"/professional-services"}
-              className="card-shadow card-hover m-3"
-            >
-              <div className="card">
-                <div className="card-image">
-                  <img
-                    className="image"
-                    src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                    alt=""
-                  />
-                </div>
-                <div class="card-content has-background-red">
-                  <p class="content has-text-weight-bold has-text-light has-text-centered is-size-5">
-                    Professional services
-                  </p>
-                </div>
-              </div>
-            </Link>
+            <Popup
+              wide
+              position="top center"
+              content="People, Equipment, and Security Services for Your Organization’s Needs"
+              trigger={
+                <Link
+                  to={"/security-services"}
+                  className="card-shadow card-hover m-3"
+                >
+                  <div className="card">
+                    <div className="card-image">
+                      <img
+                        className="image"
+                        src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-content has-background-red">
+                      <p class="content has-text-weight-bold has-text-light has-text-centered is-size-5">
+                        Security services
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              }
+            />
+            <Popup
+              wide
+              position="top center"
+              content="Innovative Security Technology Solutions"
+              trigger={
+                <Link
+                  to={"/technology-services"}
+                  className="card-shadow card-hover m-3"
+                >
+                  <div className="card">
+                    <div className="card-image">
+                      <img
+                        className="image"
+                        src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-content has-background-red">
+                      <p class="content has-text-weight-bold has-text-light has-text-centered is-size-5">
+                        Technology services
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              }
+            />
+            <Popup
+              wide
+              position="top center"
+              content="Security Risk Assessment and Prevention"
+              trigger={
+                <Link
+                  to={"/professional-services"}
+                  className="card-shadow card-hover m-3"
+                >
+                  <div className="card">
+                    <div className="card-image">
+                      <img
+                        className="image"
+                        src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-content has-background-red">
+                      <p class="content has-text-weight-bold has-text-light has-text-centered is-size-5">
+                        Professional services
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              }
+            />
           </div>
         </Container>
       </div>

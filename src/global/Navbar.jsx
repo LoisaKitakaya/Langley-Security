@@ -94,11 +94,11 @@ const Navbar = () => {
               <Link to={"/industries"} className="navbar-item">
                 Industries
               </Link>
-              <Link to={"/resource-center"} className="navbar-item">
-                Resource Center
-              </Link>
               <Link to={"/contact-us"} className="navbar-item">
                 Contact us
+              </Link>
+              <Link to={"/resource-center"} className="navbar-item">
+                Resources
               </Link>
             </div>
           </div>
@@ -160,6 +160,14 @@ const Navbar = () => {
           <Icon name="chess" size="mini" />
           Professional services
         </Menu.Item>
+        <Menu.Item
+          as={Link}
+          to={"/contact-us"}
+          onClick={() => setVisible(false)}
+        >
+          <Icon name="phone" size="mini" />
+          Contact us
+        </Menu.Item>
         <Menu.Item as={Link} to={"/why-us"} onClick={() => setVisible(false)}>
           <Icon name="question" size="mini" />
           Why us
@@ -179,14 +187,6 @@ const Navbar = () => {
         >
           <Icon name="question" size="mini" />
           What we do
-        </Menu.Item>
-        <Menu.Item
-          as={Link}
-          to={"/contact-us"}
-          onClick={() => setVisible(false)}
-        >
-          <Icon name="phone" size="mini" />
-          Contact us
         </Menu.Item>
         <Menu.Item
           as={Link}

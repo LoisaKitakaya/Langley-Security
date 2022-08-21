@@ -1,4 +1,4 @@
-import { Container, Breadcrumb, Icon } from "semantic-ui-react";
+import { Container, Breadcrumb, Icon, Popup } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 import IntroBanner from "../components/IntroBanner";
@@ -122,18 +122,25 @@ const Industries = () => {
                     to={`/industries/${card.slug}`}
                     className=" industry-card mb-3 mt-3 card-shadow card-hover"
                   >
-                    <div className="card">
-                      <div class="card-image">
-                        <figure class="image is-4by3">
-                          <img src={card.image} alt={card.title} />
-                        </figure>
-                      </div>
-                      <div class="card-content has-background-red">
-                        <p class="content has-text-weight-bold has-text-light has-text-centered is-size-5">
-                          {card.title}
-                        </p>
-                      </div>
-                    </div>
+                    <Popup
+                      wide
+                      position="top center"
+                      content={`Security solutions for the ${card.title} sector`}
+                      trigger={
+                        <div className="card">
+                          <div class="card-image">
+                            <figure class="image is-4by3">
+                              <img src={card.image} alt={card.title} />
+                            </figure>
+                          </div>
+                          <div class="card-content has-background-red">
+                            <p class="content has-text-weight-bold has-text-light has-text-centered is-size-5">
+                              {card.title}
+                            </p>
+                          </div>
+                        </div>
+                      }
+                    />
                   </Link>
                 </>
               );
