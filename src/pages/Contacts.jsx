@@ -1,7 +1,6 @@
 import {
   Container,
   Breadcrumb,
-  Image,
   Card,
   Icon,
   Button,
@@ -9,8 +8,15 @@ import {
 } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
-import "../pages/css/pages.css";
 import ContactForm from "../components/ContactForm";
+
+import "../pages/css/pages.css";
+import IntroBanner from "../components/IntroBanner";
+
+let imageOne =
+  "https://images.pexels.com/photos/46924/pexels-photo-46924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+let imageTwo =
+  "https://images.pexels.com/photos/230554/pexels-photo-230554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 
 const Contacts = () => {
   return (
@@ -30,25 +36,13 @@ const Contacts = () => {
       {/* breadcrumb */}
 
       {/* intro */}
-      <Container>
-        <div className="is-flex intro-container has-background-light mb-6 card-shadow rounded">
-          {/* iframe for responsive behavior */}
-          <div className="mobile-player">
-            <Image
-              src="https://images.pexels.com/photos/46924/pexels-photo-46924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              fluid
-              className="img-dimensions img-borders"
-            />
-          </div>
-          {/* iframe for responsive behavior */}
-          <div className="intro-content">
-            <h1 className="is-size-1 ml-6 mt-6 reframe">Contact us</h1>
-            <p className="is-size-5 m-6 pb-3 reframe">
-              Contact us to discuss custom solutions for your organization
-            </p>
-          </div>
-        </div>
-      </Container>
+      <IntroBanner
+        header={"Contact us"}
+        image={imageOne}
+        caption={
+          "Contact us to discuss custom solutions for your organization."
+        }
+      />
       {/* intro */}
 
       {/* contact forms */}
@@ -147,25 +141,13 @@ const Contacts = () => {
       {/* contact forms */}
 
       {/* intro */}
-      <Container>
-        <div className="is-flex is-flex-direction-row-reverse intro-container has-background-light mb-6 card-shadow rounded">
-          {/* iframe for responsive behavior */}
-          <div className="mobile-player">
-            <Image
-              src="https://images.pexels.com/photos/230554/pexels-photo-230554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              fluid
-              className="img-dimensions img-borders-reverse"
-            />
-          </div>
-          {/* iframe for responsive behavior */}
-          <div className="intro-content">
-            <h1 className="is-size-1 ml-6 mt-6 reframe">Contact us</h1>
-            <p className="is-size-5 m-6 pb-3 reframe">
-              Contact us to discuss custom solutions for your organization
-            </p>
-          </div>
-        </div>
-      </Container>
+      <IntroBanner
+        header={"Contact us"}
+        image={imageTwo}
+        caption={
+          "Contact us to discuss custom solutions for your organization."
+        }
+      />
       {/* intro */}
     </div>
   );
