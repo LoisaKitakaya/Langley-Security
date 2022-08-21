@@ -7,3 +7,7 @@
 .App .load-container {
   min-height: 92vh !important;
 }
+
+.has-background-red {
+  background-color: rgba(200, 30, 30, 0.95) !important;
+}

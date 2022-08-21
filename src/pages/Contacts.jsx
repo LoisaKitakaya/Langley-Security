@@ -14,7 +14,7 @@ import "../pages/css/pages.css";
 import IntroBanner from "../components/IntroBanner";
 
 let imageOne =
-  "https://images.pexels.com/photos/46924/pexels-photo-46924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+  "https://images.pexels.com/photos/230557/pexels-photo-230557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 let imageTwo =
   "https://images.pexels.com/photos/230554/pexels-photo-230554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 
@@ -38,7 +38,7 @@ const Contacts = () => {
       {/* intro */}
       <IntroBanner
         header={"Contact us"}
-        image={imageOne}
+        image={imageTwo}
         caption={
           "Contact us to discuss custom solutions for your organization."
         }
@@ -143,7 +143,7 @@ const Contacts = () => {
       {/* intro */}
       <IntroBanner
         header={"Contact us"}
-        image={imageTwo}
+        image={imageOne}
         caption={
           "Contact us to discuss custom solutions for your organization."
         }

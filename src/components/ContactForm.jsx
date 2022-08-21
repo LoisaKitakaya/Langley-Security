@@ -4,10 +4,21 @@ import { Link } from "react-router-dom";
 const ContactForm = () => {
   return (
     <form className="has-background-light has-text-left">
+      <p className="is-size-6">
+        Fields marked with{" "}
+        <strong>
+          <sup className="has-text-danger">*</sup>
+        </strong>{" "}
+        are required (i.e. cannot be left blank)
+      </p>
+      <br />
       <div className="columns mb-0">
         <div class="field column">
           <label class="label" htmlFor="first_name">
-            First name
+            First name{" "}
+            <strong>
+              <sup className="has-text-danger">*</sup>
+            </strong>
           </label>
           <div class="control">
             <input
@@ -21,7 +32,10 @@ const ContactForm = () => {
         </div>
         <div class="field column">
           <label class="label" htmlFor="last_name">
-            Last name
+            Last name{" "}
+            <strong>
+              <sup className="has-text-danger">*</sup>
+            </strong>
           </label>
           <div class="control">
             <input
@@ -37,7 +51,10 @@ const ContactForm = () => {
       <div className="columns mb-0">
         <div class="field column">
           <label class="label" htmlFor="email">
-            Business email
+            Business email{" "}
+            <strong>
+              <sup className="has-text-danger">*</sup>
+            </strong>
           </label>
           <div class="control">
             <input
@@ -51,7 +68,10 @@ const ContactForm = () => {
         </div>
         <div class="field column">
           <label class="label" htmlFor="phone">
-            Phone
+            Phone{" "}
+            <strong>
+              <sup className="has-text-danger">*</sup>
+            </strong>
           </label>
           <div class="control">
             <input
@@ -67,7 +87,10 @@ const ContactForm = () => {
       <div className="columns mb-0">
         <div class="field column">
           <label class="label" htmlFor="company_name">
-            Company name
+            Company name{" "}
+            <strong>
+              <sup className="has-text-danger">*</sup>
+            </strong>
           </label>
           <div class="control">
             <input
@@ -81,7 +104,10 @@ const ContactForm = () => {
         </div>
         <div class="field column">
           <label class="label" htmlFor="city">
-            City
+            City{" "}
+            <strong>
+              <sup className="has-text-danger">*</sup>
+            </strong>
           </label>
           <div class="control">
             <input
@@ -97,7 +123,10 @@ const ContactForm = () => {
       <div className="columns mb-0">
         <div class="field column">
           <label class="label" htmlFor="service">
-            Services
+            Services{" "}
+            <strong>
+              <sup className="has-text-danger">*</sup>
+            </strong>
           </label>
           <div class="select is-fullwidth">
             <select name="service" required>
@@ -121,12 +150,16 @@ const ContactForm = () => {
               <option value="intelligence">
                 Private investigation {"&"} intelligence services
               </option>
+              <option value="job">Job seeker</option>
             </select>
           </div>
         </div>
         <div class="field column">
           <label class="label" htmlFor="industry">
-            Industries
+            Industries{" "}
+            <strong>
+              <sup className="has-text-danger">*</sup>
+            </strong>
           </label>
           <div class="select is-fullwidth">
             <select name="industry" required>
@@ -139,16 +172,18 @@ const ContactForm = () => {
               <option value="finance">Finance</option>
               <option value="healthcare">Healthcare</option>
               <option value="retail">Retail</option>
-              <option value="transit">Transit</option>
+              <option value="transport">Transport</option>
               <option value="residential">Residential</option>
               <option value="logistics">Distribution {"&"} logistics</option>
               <option value="hospitality">Hotel {"&"} hospitality</option>
+              <option value="tech">High tech {"&"} telecom</option>
+              <option value="utility">Utility</option>
             </select>
           </div>
         </div>
       </div>
       <div class="field mb-5">
-        <label class="label">Message(optional)</label>
+        <label class="label">Message (optional)</label>
         <div class="control">
           <textarea
             class="textarea"
