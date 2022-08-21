@@ -89,81 +89,64 @@ const Home = () => {
         </div>
         <Container>
           <div className="is-flex is-justify-content-space-between services-container">
-            <div className="card m-3 has-background-light card-shadow">
-              <div className="card-image">
-                <img
-                  className="image"
-                  src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                  alt=""
-                />
+            <Link
+              to={"/security-services"}
+              className="card-shadow card-hover m-3"
+            >
+              <div className="card">
+                <div className="card-image">
+                  <img
+                    className="image"
+                    src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    alt=""
+                  />
+                </div>
+                <div class="card-content has-background-red">
+                  <p class="content has-text-weight-bold has-text-light has-text-centered is-size-5">
+                    Security services
+                  </p>
+                </div>
               </div>
-              <div className="card-content">
-                <h3 className="is-size-3">Security services</h3>
-                <br />
-                <Button
-                  as={Link}
-                  to={"/security-services"}
-                  animated
-                  color="red"
-                  className="btn-fluid"
-                >
-                  <Button.Content visible>Learn more</Button.Content>
-                  <Button.Content hidden>
-                    <Icon name="arrow right" />
-                  </Button.Content>
-                </Button>
+            </Link>
+
+            <Link
+              to={"/technology-services"}
+              className="card-shadow card-hover m-3"
+            >
+              <div className="card">
+                <div className="card-image">
+                  <img
+                    className="image"
+                    src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    alt=""
+                  />
+                </div>
+                <div class="card-content has-background-red">
+                  <p class="content has-text-weight-bold has-text-light has-text-centered is-size-5">
+                    Technology services
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="card m-3 has-background-light card-shadow">
-              <div className="card-image">
-                <img
-                  className="image"
-                  src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                  alt=""
-                />
+            </Link>
+            <Link
+              to={"/professional-services"}
+              className="card-shadow card-hover m-3"
+            >
+              <div className="card">
+                <div className="card-image">
+                  <img
+                    className="image"
+                    src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    alt=""
+                  />
+                </div>
+                <div class="card-content has-background-red">
+                  <p class="content has-text-weight-bold has-text-light has-text-centered is-size-5">
+                    Professional services
+                  </p>
+                </div>
               </div>
-              <div className="card-content">
-                <h3 className="is-size-3">Technology services</h3>
-                <br />
-                <Button
-                  as={Link}
-                  to={"/technology-services"}
-                  animated
-                  color="red"
-                  className="btn-fluid"
-                >
-                  <Button.Content visible>Learn more</Button.Content>
-                  <Button.Content hidden>
-                    <Icon name="arrow right" />
-                  </Button.Content>
-                </Button>
-              </div>
-            </div>
-            <div className="card m-3 has-background-light card-shadow">
-              <div className="card-image">
-                <img
-                  className="image"
-                  src="https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                  alt=""
-                />
-              </div>
-              <div className="card-content">
-                <h3 className="is-size-3">Professional services</h3>
-                <br />
-                <Button
-                  as={Link}
-                  to={"/professional-services"}
-                  animated
-                  color="red"
-                  className="btn-fluid"
-                >
-                  <Button.Content visible>Learn more</Button.Content>
-                  <Button.Content hidden>
-                    <Icon name="arrow right" />
-                  </Button.Content>
-                </Button>
-              </div>
-            </div>
+            </Link>
           </div>
         </Container>
       </div>
