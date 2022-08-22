@@ -1,6 +1,7 @@
 .intro-content {
   width: 70%;
   margin: 1rem auto;
+  overflow-y: auto;
 }
 
 .pitch-card {
@@ -185,7 +186,8 @@ iframe,
     flex-wrap: wrap !important;
   }
 
-  form .columns, form .columns .column {
+  form .columns,
+  form .columns .column {
     margin: 0.5rem 0 !important;
   }
 

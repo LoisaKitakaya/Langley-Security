@@ -10,8 +10,8 @@ const IntroBanner = ({ image, header, caption }) => {
         </div>
         {/* iframe for responsive behavior */}
         <div className="intro-content">
-          <h2 className="is-size-2 ml-6 mt-6 reframe">{header}</h2>
-          <p className="is-size-5 ml-6 mr-6 mt-6 reframe">{caption}</p>
+          <h2 className="is-size-2 ml-6 mt-3 reframe">{header}</h2>
+          <p className="is-size-5 ml-6 mr-6 mt-3 reframe">{caption}</p>
         </div>
       </div>
     </Container>
