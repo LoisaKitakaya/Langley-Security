@@ -3,16 +3,19 @@ import { Link } from "react-router-dom";
 
 import IntroBanner from "../components/IntroBanner";
 import PitchContainer from "../components/PitchContainer";
+import PageTitle from "../components/PageTitle";
 
 import industryCards from "../industry.json";
 
 let image =
   "https://images.pexels.com/photos/236722/pexels-photo-236722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
-let header = "Solutions for Your Industry Needs";
+let header = "Comprehensive Solutions for Your Industry Specific Needs";
 let caption =
-  "We’d like to understand your goals and challenges so we can provide you with tailored, industry-specific solutions.";
+  "Our dedicated Vertical Markets team is made up of subject matter experts that can provide you with years of experience and thought leadership across a variety of industries. We’d like to understand your goals, objectives, and challenges and we can provide you with tailored, industry-specific solutions. To help you learn more, our experts are happy to provide you with a 1:1 consultation.";
 
 const Industries = () => {
+  PageTitle("Industries");
+
   return (
     <div className="page">
       {/* breadcrumb */}

@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
+import "./App.css";
 
+import Home from "./pages/Home";
 import Navbar from "./global/Navbar";
 import Footer from "./global/Footer";
 import News from "./pages/News";
@@ -9,8 +10,7 @@ import Article from "./pages/Article";
 import Contacts from "./pages/Contacts";
 import Industries from "./pages/Industries";
 import ResourceCenter from "./pages/ResourceCenter";
-
-import "./App.css";
+import Industry from "./pages/Industry";
 
 const App = () => {
   return (
@@ -28,6 +28,7 @@ const App = () => {
         <Route path="/blog/:slug" element={<Article />} />
         <Route path="/contact-us" element={<Contacts />} />
         <Route path="/industries" element={<Industries />} />
+        <Route path="/industries/:slug" element={<Industry />} />
       </Routes>
 
       {/* site routes */}

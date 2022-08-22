@@ -1,7 +1,8 @@
 .intro-content {
   width: 70%;
   margin: 1rem auto;
-  overflow-y: auto;
+  overflow-y: auto !important;
+  height: 300px !important;
 }
 
 .pitch-card {
@@ -88,6 +89,8 @@ iframe,
 @media screen and (max-width: 600px) {
   .intro-content {
     text-align: center !important;
+    overflow-y: auto !important;
+    height: auto !important;
   }
 
   .reframe {
