@@ -8,10 +8,11 @@ import {
 } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
-import ContactForm from "../components/ContactForm";
-
 import "../pages/css/pages.css";
+
+import ContactForm from "../components/ContactForm";
 import IntroBanner from "../components/IntroBanner";
+import IntroBannerReverse from "../components/IntroBannerReverse";
 
 let imageOne =
   "https://images.pexels.com/photos/230557/pexels-photo-230557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
@@ -141,7 +142,7 @@ const Contacts = () => {
       {/* contact forms */}
 
       {/* intro */}
-      <IntroBanner
+      <IntroBannerReverse
         header={"Contact us"}
         image={imageOne}
         caption={

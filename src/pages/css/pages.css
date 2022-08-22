@@ -89,7 +89,7 @@ iframe,
 @media screen and (max-width: 600px) {
   .intro-content {
     text-align: center !important;
-    overflow-y: auto !important;
+    overflow-y: visible !important;
     height: auto !important;
   }
 

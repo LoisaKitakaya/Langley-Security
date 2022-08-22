@@ -1,9 +1,9 @@
 import { Link, useParams } from "react-router-dom";
 import { Container, Breadcrumb, Icon } from "semantic-ui-react";
+
 import IntroBanner from "../components/IntroBanner";
-
+import IntroBannerReverse from "../components/IntroBannerReverse";
 import PageTitle from "../components/PageTitle";
-
 import industry from "../industry.json";
 
 const Industry = () => {
@@ -67,8 +67,12 @@ const Industry = () => {
       />
       {/* intro */}
 
+      {/* industry forms */}
+      <div className="has-background-dark has-text-light p-6 mb-6 reframe-2"></div>
+      {/* industry forms */}
+
       {/* outro */}
-      <IntroBanner
+      <IntroBannerReverse
         image={data.image_two}
         header={data.header_two}
         caption={data.caption_two}
