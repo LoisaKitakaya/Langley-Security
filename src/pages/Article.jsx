@@ -4,7 +4,7 @@ import { Container, Image, Item, Breadcrumb, Icon } from "semantic-ui-react";
 
 import PageTitle from "../components/PageTitle";
 
-import loader from "../assets/Broken circle.gif";
+import loader from "../assets/loader.gif";
 
 const GET_ARTICLE = gql`
   query GetArticle($slug: String!) {

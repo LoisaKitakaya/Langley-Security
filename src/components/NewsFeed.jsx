@@ -2,7 +2,7 @@ import { Item, Button, Icon } from "semantic-ui-react";
 import { gql, useQuery } from "@apollo/client";
 import { Link } from "react-router-dom";
 
-import loader from "../assets/Broken circle.gif";
+import loader from "../assets/loader.gif";
 
 const GET_RECENT_FEED = gql`
   query GetRecentFeed {
