@@ -1,6 +1,8 @@
 import { Link, useParams } from "react-router-dom";
-import { Container, Breadcrumb, Icon } from "semantic-ui-react";
+import { Container, Breadcrumb, Icon, Divider } from "semantic-ui-react";
+import BenefitsContainer from "../components/BenefitsContainer";
 
+import IndustryForm from "../components/IndustryForm";
 import IntroBanner from "../components/IntroBanner";
 import IntroBannerReverse from "../components/IntroBannerReverse";
 import PageTitle from "../components/PageTitle";
@@ -68,7 +70,26 @@ const Industry = () => {
       {/* intro */}
 
       {/* industry forms */}
-      <div className="has-background-dark has-text-light p-6 mb-6 reframe-2"></div>
+      <div className="has-background-dark has-text-light p-6 mb-6 reframe-2">
+        <Container>
+          <h3 className="is-size-3 mb-3 has-text-centered">
+            Customized Security Solutions for the {data.title} Industry
+          </h3>
+          <p className="mb-3 has-text-centered">
+            To discuss security solutions for your organization, please provide
+            the following information.
+          </p>
+          <Divider />
+          <div className="columns">
+            <div className="column">
+              <IndustryForm data={data} />
+            </div>
+            <div className="column">
+              <BenefitsContainer />
+            </div>
+          </div>
+        </Container>
+      </div>
       {/* industry forms */}
 
       {/* outro */}

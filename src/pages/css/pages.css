@@ -86,6 +86,10 @@ iframe,
   transform: scale(1.01275);
 }
 
+.is-fullheight {
+  height: 100% !important;
+}
+
 @media screen and (max-width: 600px) {
   .intro-content {
     text-align: center !important;
