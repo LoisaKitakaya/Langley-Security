@@ -45,9 +45,6 @@ const Navbar = () => {
                   <a href="/why-us" className="navbar-item navbar-h-item">
                     Why us
                   </a>
-                  <a href="/what-we-do" className="navbar-item navbar-h-item">
-                    What we do
-                  </a>
                   <a href="/who-we-are" className="navbar-item navbar-h-item">
                     Who we are
                   </a>
@@ -56,12 +53,6 @@ const Navbar = () => {
                     className="navbar-item navbar-h-item"
                   >
                     Leadership team
-                  </a>
-                  <a
-                    href="/board-of-directors"
-                    className="navbar-item navbar-h-item"
-                  >
-                    Board of directors
                   </a>
                 </div>
               </div>
@@ -182,27 +173,11 @@ const Navbar = () => {
         </Menu.Item>
         <Menu.Item
           as={Link}
-          to={"/what-we-do"}
-          onClick={() => setVisible(false)}
-        >
-          <Icon name="question" size="mini" />
-          What we do
-        </Menu.Item>
-        <Menu.Item
-          as={Link}
-          to={"/board-of-directors"}
-          onClick={() => setVisible(false)}
-        >
-          <Icon name="users" size="mini" />
-          Board of directors
-        </Menu.Item>
-        <Menu.Item
-          as={Link}
           to={"/business-leadership-team"}
           onClick={() => setVisible(false)}
         >
           <Icon name="users" size="mini" />
-          Business leadership team
+          Leadership team
         </Menu.Item>
       </Sidebar>
       {/* sidebar */}

@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { Container, Breadcrumb, Icon, Divider } from "semantic-ui-react";
-import BenefitsContainer from "../components/BenefitsContainer";
 
+import BenefitsContainer from "../components/BenefitsContainer";
 import IndustryForm from "../components/IndustryForm";
 import IntroBanner from "../components/IntroBanner";
 import IntroBannerReverse from "../components/IntroBannerReverse";

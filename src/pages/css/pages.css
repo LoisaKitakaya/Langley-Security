@@ -90,6 +90,10 @@ iframe,
   height: 100% !important;
 }
 
+.benefits-container {
+  width: 20%;
+}
+
 @media screen and (max-width: 600px) {
   .intro-content {
     text-align: center !important;
@@ -204,6 +208,10 @@ iframe,
   }
 
   .industry-card {
+    width: 100% !important;
+  }
+
+  .benefits-container {
     width: 100% !important;
   }
 }
