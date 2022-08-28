@@ -178,7 +178,7 @@ const Home = () => {
 
       {/* outro */}
       <Container>
-        <div className="is-flex mb-6 has-background-light card-shadow contact-container">
+        <div className="is-flex mb-6 has-background-light contact-container">
           <div className="outro-container p-6 has-text-light">
             <h3 className="is-size-3">Contact us</h3>
             <br />

@@ -119,8 +119,6 @@
     height: 210px !important;
     width: 368px !important;
     margin: auto !important;
-    border-bottom-left-radius: 0 !important;
-    border-top-right-radius: 0.3rem !important;
   }
 
   /* .img-borders {
@@ -157,10 +155,10 @@
     margin: auto !important;
   }
 
-  .outro-container {
+  /* .outro-container {
     border-bottom-left-radius: 0 !important;
     border-top-right-radius: 0.3rem !important;
-  }
+  } */
 
   .view-news-link {
     text-align: center !important;

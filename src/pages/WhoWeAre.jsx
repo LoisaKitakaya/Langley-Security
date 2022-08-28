@@ -42,6 +42,7 @@ const WhoWeAre = () => {
       {/* who we are */}
       <div className="has-background-dark has-text-light p-6 mb-6 reframe-2">
         <Container>
+          <Divider />
           <h3 className="is-size-3">Our Story</h3>
           <Divider />
           <p className="is-size-5">
