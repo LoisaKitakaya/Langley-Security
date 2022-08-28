@@ -48,12 +48,12 @@ const Navbar = () => {
                   <a href="/who-we-are" className="navbar-item navbar-h-item">
                     Who we are
                   </a>
-                  <a
+                  {/* <a
                     href="/business-leadership-team"
                     className="navbar-item navbar-h-item"
                   >
                     Leadership team
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="navbar-item has-dropdown is-hoverable pb-1">
@@ -171,14 +171,14 @@ const Navbar = () => {
           <Icon name="question" size="mini" />
           Who we are
         </Menu.Item>
-        <Menu.Item
+        {/* <Menu.Item
           as={Link}
           to={"/business-leadership-team"}
           onClick={() => setVisible(false)}
         >
           <Icon name="users" size="mini" />
           Leadership team
-        </Menu.Item>
+        </Menu.Item> */}
       </Sidebar>
       {/* sidebar */}
     </div>
