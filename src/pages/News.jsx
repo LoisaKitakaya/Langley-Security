@@ -16,13 +16,6 @@ const GET_ARTICLE = gql`
       content {
         html
       }
-      companyAuthor {
-        authorName
-        authorBio
-        authorImage {
-          url
-        }
-      }
       publishedDate
     }
   }
@@ -96,7 +89,7 @@ const News = () => {
       {/* article */}
 
       {/* author */}
-      <Container>
+      {/* <Container>
         <div className="p-3 mb-6 card-shadow rounded has-background-light">
           <Item.Group>
             <Item>
@@ -121,7 +114,7 @@ const News = () => {
             </Item>
           </Item.Group>
         </div>
-      </Container>
+      </Container> */}
       {/* author */}
     </div>
   );
