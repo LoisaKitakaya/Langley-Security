@@ -1,6 +1,6 @@
 import { gql, useQuery } from "@apollo/client";
 import { Link, useParams } from "react-router-dom";
-import { Container, Image, Item, Breadcrumb, Icon } from "semantic-ui-react";
+import { Container, Image, Breadcrumb, Icon } from "semantic-ui-react";
 
 import PageTitle from "../components/PageTitle";
 

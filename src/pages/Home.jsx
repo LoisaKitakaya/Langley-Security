@@ -35,7 +35,7 @@ const Home = () => {
     <div className="page">
       {/* intro */}
       <Container>
-        <div className="is-flex intro-container has-background-light mt-6 mb-6 card-shadow rounded">
+        <div className="is-flex intro-container has-background-light mt-6 mb-6">
           {/* iframe for responsive behavior */}
           <div className="mobile-player">
             <iframe
@@ -178,7 +178,7 @@ const Home = () => {
 
       {/* outro */}
       <Container>
-        <div className="is-flex mb-6 has-background-light card-shadow contact-container rounded">
+        <div className="is-flex mb-6 has-background-light card-shadow contact-container">
           <div className="outro-container p-6 has-text-light">
             <h3 className="is-size-3">Contact us</h3>
             <br />

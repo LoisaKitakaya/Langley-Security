@@ -79,7 +79,7 @@ const WhyUs = () => {
           </h3>
           <Divider />
           <div className="is-flex mb-3 pt-1 pb-1 pitch-container">
-            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container">
+            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container card-shadow">
               <Icon name="check circle" className="is-size-1" />
               <br />
               <br />
@@ -90,7 +90,7 @@ const WhyUs = () => {
                 related tasks
               </p>
             </div>
-            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container">
+            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container card-shadow">
               <Icon name="shield" className="is-size-1" />
               <br />
               <br />
@@ -101,7 +101,7 @@ const WhyUs = () => {
                 risk and safeguard assets
               </p>
             </div>
-            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container">
+            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container card-shadow">
               <Icon name="book" className="is-size-1" />
               <br />
               <br />
@@ -112,7 +112,7 @@ const WhyUs = () => {
                 services, access control and management
               </p>
             </div>
-            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container">
+            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container card-shadow">
               <Icon name="thumbs up" className="is-size-1" />
               <br />
               <br />
@@ -123,7 +123,7 @@ const WhyUs = () => {
                 concerns and reduce property crimes
               </p>
             </div>
-            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container">
+            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container card-shadow">
               <Icon name="cogs" className="is-size-1" />
               <br />
               <br />

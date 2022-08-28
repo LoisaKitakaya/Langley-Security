@@ -3,10 +3,14 @@ import { Container, Image } from "semantic-ui-react";
 const IntroBannerReverse = ({ image, header, caption }) => {
   return (
     <Container>
-      <div className="is-flex is-flex-direction-row-reverse intro-container has-background-light mb-6 card-shadow rounded">
+      <div className="is-flex is-flex-direction-row-reverse intro-container has-background-light mb-6">
         {/* iframe for responsive behavior */}
         <div className="mobile-player">
-          <Image src={image} fluid className="img-dimensions img-borders-reverse" />
+          <Image
+            src={image}
+            fluid
+            className="img-dimensions img-borders-reverse"
+          />
         </div>
         {/* iframe for responsive behavior */}
         <div className="intro-content">

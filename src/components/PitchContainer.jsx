@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const PitchContainer = () => {
   return (
     <Container>
-      <div className="has-background-light is-flex mb-6 p-6 card-shadow rounded pitch-container">
-        <div className="has-text-centered m-4 has-background-dark box has-text-light">
+      <div className="has-background-light is-flex mb-6 p-6 pitch-container">
+        <div className="has-text-centered m-4 has-background-dark box has-text-light card-shadow">
           <Icon name="handshake" size="huge" />
           <br />
           <br />
@@ -30,7 +30,7 @@ const PitchContainer = () => {
             </Button.Content>
           </Button>
         </div>
-        <div className="has-text-centered m-4 has-background-dark box has-text-light">
+        <div className="has-text-centered m-4 has-background-dark box has-text-light card-shadow">
           <Icon name="map marker alternate" size="huge" />
           <br />
           <br />
@@ -55,7 +55,7 @@ const PitchContainer = () => {
             </Button.Content>
           </Button>
         </div>
-        <div className="has-text-centered m-4 has-background-dark box has-text-light">
+        <div className="has-text-centered m-4 has-background-dark box has-text-light card-shadow">
           <Icon name="users" size="huge" />
           <br />
           <br />

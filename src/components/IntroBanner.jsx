@@ -3,7 +3,7 @@ import { Container, Image } from "semantic-ui-react";
 const IntroBanner = ({ image, header, caption }) => {
   return (
     <Container>
-      <div className="is-flex intro-container has-background-light mb-6 card-shadow rounded">
+      <div className="is-flex intro-container has-background-light mb-6">
         {/* iframe for responsive behavior */}
         <div className="mobile-player">
           <Image src={image} fluid className="img-dimensions img-borders" />

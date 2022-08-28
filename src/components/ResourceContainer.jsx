@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const ResourceContainer = () => {
   return (
     <Container>
-      <div className="is-flex mb-6 p-6 has-background-light card-shadow resources-container rounded">
-        <div className="has-text-centered m-4 box has-background-dark has-text-light pinch-2">
+      <div className="is-flex mb-6 p-6 has-background-light resources-container">
+        <div className="has-text-centered m-4 box has-background-dark has-text-light pinch-2 card-shadow">
           <h3 className="is-size-3">The State of Security Today</h3>
           <br />
           <p>
@@ -27,7 +27,7 @@ const ResourceContainer = () => {
             </Button.Content>
           </Button>
         </div>
-        <div className="has-text-centered m-4 box has-background-dark has-text-light pinch-2">
+        <div className="has-text-centered m-4 box has-background-dark has-text-light pinch-2 card-shadow">
           <h3 className="is-size-3">Vertically Focused Solutions</h3>
           <br />
           <p>
