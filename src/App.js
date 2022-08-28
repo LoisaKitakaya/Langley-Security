@@ -12,6 +12,7 @@ import Industries from "./pages/Industries";
 import ResourceCenter from "./pages/ResourceCenter";
 import Industry from "./pages/Industry";
 import WhyUs from "./pages/WhyUs";
+import WhoWeAre from "./pages/WhoWeAre";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/industries" element={<Industries />} />
         <Route path="/industries/:slug" element={<Industry />} />
         <Route path="/why-us" element={<WhyUs />} />
+        <Route path="/who-we-are" element={<WhoWeAre />} />
       </Routes>
 
       {/* site routes */}

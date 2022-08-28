@@ -34,7 +34,7 @@
 }
 
 .outro-container {
-  background-image: url("/src/assets/pexels-tyler-lastovich-1275929.jpg");
+  background-image: url("https://images.pexels.com/photos/2260237/pexels-photo-2260237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
   border-top-left-radius: 0.3rem;
   border-bottom-left-radius: 0.3rem;
