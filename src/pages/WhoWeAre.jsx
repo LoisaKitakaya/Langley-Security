@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "../pages/css/pages.css";
 import IntroBanner from "../components/IntroBanner";
 import IntroBannerReverse from "../components/IntroBannerReverse";
+import PageTitle from "../PageTitle";
 
 let imageOne =
   "https://images.pexels.com/photos/288477/pexels-photo-288477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
@@ -17,6 +18,8 @@ let captionTwo =
   "Today, as a leader in integrated security solutions, Langley Security has grown organically. Throughout this journey, Langley Security continues to expand its suite of services and geographic markets to offer proactive security services and cutting-edge smart technology to its base of clients.";
 
 const WhoWeAre = () => {
+  PageTitle("Who we are");
+
   return (
     <div className="page">
       {/* breadcrumb */}

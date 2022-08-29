@@ -13,6 +13,7 @@ import "../pages/css/pages.css";
 import ContactForm from "../components/ContactForm";
 import IntroBanner from "../components/IntroBanner";
 import IntroBannerReverse from "../components/IntroBannerReverse";
+import PageTitle from "../PageTitle";
 
 let imageOne =
   "https://images.pexels.com/photos/230557/pexels-photo-230557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
@@ -20,6 +21,8 @@ let imageTwo =
   "https://images.pexels.com/photos/230554/pexels-photo-230554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 
 const Contacts = () => {
+  PageTitle("Contacts");
+
   return (
     <div className="page">
       {/* breadcrumb */}

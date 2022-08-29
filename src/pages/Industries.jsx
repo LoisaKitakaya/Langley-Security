@@ -3,9 +3,8 @@ import { Link } from "react-router-dom";
 
 import IntroBanner from "../components/IntroBanner";
 import PitchContainer from "../components/PitchContainer";
-import PageTitle from "../components/PageTitle";
+import PageTitle from "../PageTitle";
 import industryCards from "../industry.json";
-
 
 let image =
   "https://images.pexels.com/photos/236722/pexels-photo-236722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";

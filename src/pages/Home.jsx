@@ -5,7 +5,7 @@ import ImageGallery from "react-image-gallery";
 
 import "../pages/css/pages.css";
 
-import PageTitle from "../components/PageTitle";
+import PageTitle from "../PageTitle";
 import NewsFeed from "../components/NewsFeed";
 import PitchContainer from "../components/PitchContainer";
 import ResourceContainer from "../components/ResourceContainer";

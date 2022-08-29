@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "../pages/css/pages.css";
 
-import PageTitle from "../components/PageTitle";
+import PageTitle from "../PageTitle";
 
 const WhyUs = () => {
   PageTitle("Why us");

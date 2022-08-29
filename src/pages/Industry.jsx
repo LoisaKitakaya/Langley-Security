@@ -5,7 +5,7 @@ import BenefitsContainer from "../components/BenefitsContainer";
 import IndustryForm from "../components/IndustryForm";
 import IntroBanner from "../components/IntroBanner";
 import IntroBannerReverse from "../components/IntroBannerReverse";
-import PageTitle from "../components/PageTitle";
+import PageTitle from "../PageTitle";
 import industry from "../industry.json";
 
 const Industry = () => {

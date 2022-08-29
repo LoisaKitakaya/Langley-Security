@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import AllArticles from "../components/AllArticles";
 import AllNews from "../components/AllNews";
-import PageTitle from "../components/PageTitle";
+import PageTitle from "../PageTitle";
 
 import "../pages/css/pages.css";
 
