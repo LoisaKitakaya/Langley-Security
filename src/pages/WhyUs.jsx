@@ -29,7 +29,7 @@ const WhyUs = () => {
       {/* Why us */}
       <Container>
         <div className="mb-3 box has-background-light card-shadow">
-          <h3 className="is-size-3">
+          <h3 className="is-size-3 has-text-centered">
             Why us should i choose Langley Security?
           </h3>
           <Divider />
@@ -74,7 +74,7 @@ const WhyUs = () => {
             <br />
           </ul>
           <Divider />
-          <h3 className="is-size-3">
+          <h3 className="is-size-3 has-text-centered">
             Benefits of working with Langley Security Group
           </h3>
           <Divider />
@@ -88,17 +88,6 @@ const WhyUs = () => {
               <p>
                 We provide Security Professionals trained for defense sector
                 related tasks
-              </p>
-            </div>
-            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container card-shadow">
-              <Icon name="shield" className="is-size-1" />
-              <br />
-              <br />
-              <h3 className="is-size-3">Guaranteed Safety</h3>
-              <br />
-              <p>
-                We keep your business safe and secure while helping to mitigate
-                risk and safeguard assets
               </p>
             </div>
             <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container card-shadow">
@@ -132,6 +121,17 @@ const WhyUs = () => {
               <p>
                 We develop solutions for the specific needs of your site
                 security to minimize disruption and risk
+              </p>
+            </div>
+            <div className="has-text-centered m-1 has-background-dark box has-text-light benefits-container card-shadow">
+              <Icon name="shield" className="is-size-1" />
+              <br />
+              <br />
+              <h3 className="is-size-3">Guaranteed Safety</h3>
+              <br />
+              <p>
+                We keep your business safe and secure while helping to mitigate
+                risk and safeguard assets
               </p>
             </div>
           </div>
