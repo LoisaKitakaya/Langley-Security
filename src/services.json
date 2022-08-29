@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Security Services",
+    "alias": "Security services",
+    "slug": "security-services",
+    "thumbnail": "https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "imageOne": "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "imageTwo": "https://images.pexels.com/photos/3868576/pexels-photo-3868576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "People, Equipment, and Security Services for Your Organization’s Needs",
+    "headerOne": "Commercial Security Services",
+    "headerTwo": "Custom Business Security Services",
+    "captionOne": "Langley Security, a leading security and facility services company, provides proactive security services and cutting-edge smart technology to deliver evolving, tailored solutions that allow clients to focus on their core business.",
+    "captionTwo": "Our excellence starts with our local leadership and local presence. We take pride in our extensive knowledge in a range of specialty sectors such as education, healthcare, retail, commercial real estate, government and corporate campuses, etc. We believe there is no greater purpose than serving and safeguarding customers, communities and people in today’s world. Langley Security is There for you.",
+    "services": [
+      {
+        "id": 1,
+        "name": "Site security services",
+        "description": "Our people and technology provide the security and protection you need."
+      },
+      {
+        "id": 2,
+        "name": "Patrol security services",
+        "description": "By their presence alone, uniformed security patrol officers can help enhance your employees’ safety and reduce the risk of vandalism or theft on your property or at your facility."
+      },
+      {
+        "id": 3,
+        "name": "Canine security services",
+        "description": "Well trained canine units to sniff out potential threats from both stationary and mobile explosive odors within your facility."
+      },
+      {
+        "id": 4,
+        "name": "Event security services",
+        "description": "We provide experienced and trained professionals to make sure your event is a success."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Technology Services",
+    "alias": "Technology services",
+    "thumbnail": "https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "imageOne": "https://images.pexels.com/photos/442154/pexels-photo-442154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "imageTwo": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg",
+    "description": "Custom & innovative Security Technology Solutions",
+    "headerOne": "Security Technology Services",
+    "headerTwo": "Smart People. Smart Technology. Smarter Deployment",
+    "captionOne": "When it comes to reducing risk, you need a solution customized to the unique needs of your organization—including your site-specific requirements. With experience and deep industry expertise across a wide array of industries, Langley Security is a proven partner to help you safeguard your people, assets, and reputation. By leveraging the right combination of trained security professionals, data and cutting-edge technology, we are able to deploy smarter, more effective security programs for our clients.",
+    "captionTwo": "With customized security solutions ranging from situational awareness and threat intelligence platforms, to remote video and alarm monitoring, to integrated commercial security systems, we provide full lifecycle support of leading-edge technology to ensure the safety and security of your personnel and property.",
+    "services": [
+      {
+        "id": 1,
+        "name": "Video surveillance systems",
+        "description": "Video surveillance systems designed to secure your investment, deter crime, and keep your people and property secure."
+      },
+      {
+        "id": 2,
+        "name": "Electronic access control",
+        "description": "Validation and authorization of staff and guests attempting to gain access into your facility"
+      },
+      {
+        "id": 3,
+        "name": "Emergency communication",
+        "description": "Technology Services designed to implement one-to-one and mass communication during emergencies."
+      },
+      {
+        "id": 4,
+        "name": "Tracking and tracing",
+        "description": "Technology Services designed to track and/or trace automobiles and persons."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Professional Services",
+    "alias": "Professional services",
+    "thumbnail": "https://images.pexels.com/photos/13169815/pexels-photo-13169815.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "imageOne": "https://images.pexels.com/photos/5699466/pexels-photo-5699466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "imageTwo": "https://images.pexels.com/photos/4559589/pexels-photo-4559589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Security Risk Assessment, Prevention and consultation",
+    "headerOne": "Risk Advisory and Consulting Services",
+    "headerTwo": "Private intelligence Services",
+    "captionOne": "Langley Security Risk Advisory and Consulting Services combine risk and threat assessment, prevention, and investigative practices developed over many years with the extensive experience and knowledge of industry-leading consultants into a centralized practice with strategic focus on reducing risk. We help customers determine where and when risk is most likely to turn into threat and the most effective means to combat threat—arming organizations with the knowledge to make critical business decisions that ensure better risk management outcomes.",
+    "captionTwo": "Langley Security provides comprehensive, global, protection services for 24/7, 365 days a year coverage through our Executive Protection and Intelligence Services division.  Mitigating risks and threats along with extensive intelligence analysis are at the core of all our customized protection programs for close protection, secure travel logistics, and related security services for the well-being and productivity of a principal wherever and whenever necessary.",
+    "services": [
+      {
+        "id": 1,
+        "name": "Risk advisory consultancy",
+        "description": "Understand and distill risk to it's most relevant impact, and act to minimize that impact."
+      },
+      {
+        "id": 2,
+        "name": "Private & corporate intelligence",
+        "description": "Knowledge is power. We provide you with hard to get information on a personal and/or corporate level."
+      }
+    ]
+  }
+]
