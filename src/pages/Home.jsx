@@ -118,7 +118,7 @@ const Home = () => {
             <Popup
               wide
               position="top center"
-              content="Innovative Security Technology Solutions"
+              content="Custom & innovative Security Technology Solutions"
               trigger={
                 <Link
                   to={"/technology-services"}
@@ -144,7 +144,7 @@ const Home = () => {
             <Popup
               wide
               position="top center"
-              content="Security Risk Assessment and Prevention"
+              content="Security Risk Assessment, Prevention and consultation"
               trigger={
                 <Link
                   to={"/professional-services"}
