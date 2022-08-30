@@ -62,10 +62,10 @@ const Service = () => {
           <Divider />
           <div className="columns">
             <div className="column">
-              <ServiceForm data={data} />
+              <ServiceList data={data} />
             </div>
             <div className="column">
-              <ServiceList data={data} />
+              <ServiceForm data={data} />
             </div>
           </div>
         </Container>

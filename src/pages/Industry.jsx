@@ -82,10 +82,10 @@ const Industry = () => {
           <Divider />
           <div className="columns">
             <div className="column">
-              <IndustryForm data={data} />
+              <BenefitsContainer />
             </div>
             <div className="column">
-              <BenefitsContainer />
+              <IndustryForm data={data} />
             </div>
           </div>
         </Container>
