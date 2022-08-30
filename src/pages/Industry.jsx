@@ -6,7 +6,7 @@ import IndustryForm from "../components/IndustryForm";
 import IntroBanner from "../components/IntroBanner";
 import IntroBannerReverse from "../components/IntroBannerReverse";
 import PageTitle from "../PageTitle";
-import industry from "../industry.json";
+import industry from "../json/industry.json";
 
 const Industry = () => {
   const slug = useParams();

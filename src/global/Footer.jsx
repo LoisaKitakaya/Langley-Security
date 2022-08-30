@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
             <div className="is-flex is-align-items-center">
               <a
-                href="https://wa.me/254725131828"
+                href="https://wa.me/254720469665"
                 className="has-text-light is-size-4"
               >
                 <Icon name="whatsapp square" />
@@ -73,7 +73,7 @@ const Footer = () => {
                 <Icon name="vimeo square" />
               </a>
               <a
-                href="tel:+254 725 131 828"
+                href="tel:+254720469665"
                 className="has-text-light is-size-4"
               >
                 <Icon name="phone square" />

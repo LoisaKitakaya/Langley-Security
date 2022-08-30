@@ -1,7 +1,7 @@
 import { Popup } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
-import service from "../services.json";
+import service from "../json/services.json";
 
 const ServicesContainer = () => {
   return (

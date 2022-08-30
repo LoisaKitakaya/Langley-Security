@@ -3,11 +3,10 @@ import { Container, Breadcrumb, Icon, Divider } from "semantic-ui-react";
 
 import IntroBanner from "../components/IntroBanner";
 import IntroBannerReverse from "../components/IntroBannerReverse";
-import service from "../services.json";
-
 import PageTitle from "../PageTitle";
 import ServiceForm from "../components/ServicesForm";
 import ServiceList from "../components/ServiceList";
+import service from "../json/services.json";
 
 const Service = () => {
   const slug = useParams();

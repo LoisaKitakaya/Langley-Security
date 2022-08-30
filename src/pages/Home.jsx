@@ -10,24 +10,9 @@ import NewsFeed from "../components/NewsFeed";
 import PitchContainer from "../components/PitchContainer";
 import ResourceContainer from "../components/ResourceContainer";
 import ServicesContainer from "../components/ServicesContainer";
+import slider from "../json/slider.json";
 
-const images = [
-  {
-    original:
-      "https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=600",
-    description: "This is the description for this image",
-  },
-  {
-    original:
-      "https://images.pexels.com/photos/177809/pexels-photo-177809.jpeg?auto=compress&cs=tinysrgb&w=600",
-    description: "This is the description for this image",
-  },
-  {
-    original:
-      "https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?auto=compress&cs=tinysrgb&w=600",
-    description: "This is the description for this image",
-  },
-];
+const images = slider;
 
 const Home = () => {
   PageTitle("Home");

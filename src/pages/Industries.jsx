@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import IntroBanner from "../components/IntroBanner";
 import PitchContainer from "../components/PitchContainer";
 import PageTitle from "../PageTitle";
-import industryCards from "../industry.json";
+import industryCards from "../json/industry.json";
 
 let image =
   "https://images.pexels.com/photos/236722/pexels-photo-236722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
