@@ -21,19 +21,16 @@ const Home = () => {
       {/* intro */}
       <Container>
         <div className="is-flex intro-container has-background-light mt-6 mb-6">
-          {/* iframe for responsive behavior */}
+          {/* video for responsive behavior */}
           <div className="mobile-player">
-            <iframe
-              title="Flowers"
-              src="https://player.vimeo.com/video/707084804?h=c5514b7eb9"
-              width="640"
-              height="360"
-              frameBorder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <video width="880" height="360" autoPlay controls>
+              <source
+                src="https://res.cloudinary.com/dit0fii18/video/upload/v1583817696/samples/elephants.mp4"
+                type="video/mp4"
+              />
+            </video>
           </div>
-          {/* iframe for responsive behavior */}
+          {/* video for responsive behavior */}
           <div className="intro-content">
             <h1 className="is-size-1 ml-6 mt-6 reframe">There for you</h1>
             <br />

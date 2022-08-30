@@ -115,12 +115,6 @@
     flex-wrap: wrap !important;
   }
 
-  iframe {
-    height: 210px !important;
-    width: 368px !important;
-    margin: auto !important;
-  }
-
   /* .img-borders {
     border-bottom-left-radius: 0 !important;
     border-top-right-radius: 0.3rem !important;
