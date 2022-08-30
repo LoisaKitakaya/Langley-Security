@@ -2,9 +2,8 @@ const ServiceList = ({ data }) => {
   return (
     <div className="card has-background-light is-fullheight has-text-left card-shadow">
       <div className="card-header">
-        <p class="card-header-title is-size-4">
-          Our partners benefit from the advantages of working with Allied
-          Universal:
+        <p class="card-header-title is-size-4 has-text-centered">
+          {data.alias} offered by Langley Security:
         </p>
       </div>
       <div className="card-content">
