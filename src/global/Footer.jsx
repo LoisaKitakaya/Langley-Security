@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Container, Icon } from "semantic-ui-react";
 
 import "../global/css/layout.css";
@@ -17,27 +16,24 @@ const Footer = () => {
               </p>
             </div>
             <div className="is-flex is-align-items-center">
-              <Link to={"/faqs"} className="has-text-light is-underlined mr-3">
-                FAQs
-              </Link>
-              <Link
-                to={"/careers"}
+              <a
+                href={"/careers"}
                 className="has-text-light is-underlined mr-3"
               >
                 Careers
-              </Link>
-              <Link
-                to={"/privacy-policy"}
+              </a>
+              <a
+                href={"/privacy-policy"}
                 className="has-text-light is-underlined mr-3"
               >
                 Privacy policy
-              </Link>
-              <Link
-                to={"terms-&-conditions"}
+              </a>
+              <a
+                href={"terms-&-conditions"}
                 className="has-text-light is-underlined"
               >
                 Terms {"&"} conditions
-              </Link>
+              </a>
             </div>
           </div>
           <div className="content is-flex is-justify-content-space-between is-align-items-center is-flex-wrap-wrap">
@@ -60,10 +56,7 @@ const Footer = () => {
               >
                 <Icon name="whatsapp square" />
               </a>
-              <a
-                href="tel:+254720469665"
-                className="has-text-light is-size-4"
-              >
+              <a href="tel:+254720469665" className="has-text-light is-size-4">
                 <Icon name="phone square" />
               </a>
               <a

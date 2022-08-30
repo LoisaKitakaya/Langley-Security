@@ -15,7 +15,6 @@ import WhyUs from "./pages/WhyUs";
 import WhoWeAre from "./pages/WhoWeAre";
 import Locations from "./pages/Locations";
 import Careers from "./pages/Careers";
-import FAQs from "./pages/FAQs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/Terms&Conditions";
 import Service from "./pages/Service";
@@ -42,7 +41,6 @@ const App = () => {
         <Route path="/locations" element={<Locations />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/services/:slug" element={<Service />} />
-        <Route path="faqs" element={<FAQs />} />
         <Route path="privacy-policy" element={<PrivacyPolicy />} />
         <Route path="terms-&-conditions" element={<TermsAndConditions />} />
       </Routes>

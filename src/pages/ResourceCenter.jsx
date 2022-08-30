@@ -6,10 +6,11 @@ import AllNews from "../components/AllNews";
 import PageTitle from "../PageTitle";
 
 import "../pages/css/pages.css";
+import FAQs from "../components/FAQs";
 
 const panes = [
   {
-    menuItem: "News feed",
+    menuItem: "News",
     render: () => (
       <Tab.Pane attached={false}>
         <AllNews />
@@ -17,10 +18,18 @@ const panes = [
     ),
   },
   {
-    menuItem: "Blog & articles",
+    menuItem: "Blog",
     render: () => (
       <Tab.Pane attached={false}>
         <AllArticles />
+      </Tab.Pane>
+    ),
+  },
+  {
+    menuItem: "FAQs",
+    render: () => (
+      <Tab.Pane attached={false}>
+        <FAQs />
       </Tab.Pane>
     ),
   },

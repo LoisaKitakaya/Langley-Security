@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "index": 0,
+    "question": "How do you price your services?",
+    "answer": "There are a variety of factors that go into the cost of service. For example, the number of hours, location, specific duty requirements and other contributions as well. We would be happy to meet with you and discuss what your specific needs are."
+  },
+  {
+    "id": 2,
+    "index": 1,
+    "question": "What type of background check is performed on your security guards?",
+    "answer": "We conduct an extensive internal investigation including prior employment and personal references. We perform a nationwide database search into each applicant’s criminal background. Security personnel must undergo criminal history fingerprint checks conducted by the Department of Criminal Investigation (DCI)."
+  },
+  {
+    "id": 3,
+    "index": 2,
+    "question": "Are your security officers in uniform?",
+    "answer": "Yes. We offer a traditional police style uniform, with company patch and our badge. In addition we can offer a softer/concierge style uniform consisting of a blazer and tie. Our Executive Protection services are provided by plain-clothes personnel."
+  },
+  {
+    "id": 4,
+    "index": 3,
+    "question": "What type of training do your security guards receive?",
+    "answer": "Our training program consists of classroom training that covers state laws and general security procedures. In addition, all security personnel receive specific on-site training for each individual client. All security officers are properly trained before starting their assignment."
+  },
+  {
+    "id": 5,
+    "index": 4,
+    "question": "Are your security officers supervised?",
+    "answer": "The security guard checks in and off duty using an automated software system, that verifies the officer’s location and keeps a record of when the officer is on duty. Langley Security has supervisors out in the field that routinely monitor the performance of all team members. Through their supervision, training and inspection our clients are assured of high quality service."
+  },
+  {
+    "id": 6,
+    "index": 5,
+    "question": "Do the security guards keep daily reports?",
+    "answer": "Depending on management needs, daily security reports can be provided for each shift. Incident reports will be provided if some of sort of security violation occurs. This would consist of any criminal activity, any property loss or damage, any falls or injuries occurring on the property.Electronic reporting can be provided to clients."
+  },
+  {
+    "id": 7,
+    "index": 6,
+    "question": "Is your security company licensed?",
+    "answer": "Yes. We are licensed under the Companies Act of 2015. Langley Security Group Limited is a private limited company offering an array of security services to private and commercial clients in Kenya."
+  },
+  {
+    "id": 8,
+    "index": 7,
+    "question": "Do you have insurance that would protect me from liability?",
+    "answer": "Langley Security carries commercial general liability, commercial automobile liability and workers compensation insurance."
+  }
+]
