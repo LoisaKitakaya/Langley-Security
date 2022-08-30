@@ -30,7 +30,7 @@ const WhyUs = () => {
       <Container>
         <div className="mb-3 box has-background-light card-shadow">
           <h3 className="is-size-3 has-text-centered">
-            Why us should i choose Langley Security?
+            Why us should I choose Langley Security?
           </h3>
           <Divider />
           <p className="is-size-5">
