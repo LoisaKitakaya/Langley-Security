@@ -23,11 +23,12 @@ const Home = () => {
         <div className="is-flex intro-container has-background-light mt-6 mb-6">
           {/* video for responsive behavior */}
           <div className="mobile-player">
-            <video width="880" height="360" autoPlay controls>
+            <video id="video" width="880" height="360" autoplay controls>
               <source
                 src="https://res.cloudinary.com/dit0fii18/video/upload/v1583817696/samples/elephants.mp4"
                 type="video/mp4"
               />
+              Your browser does not support the video tag.
             </video>
           </div>
           {/* video for responsive behavior */}
