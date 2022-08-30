@@ -1,5 +1,4 @@
-import { Container, Button, Icon } from "semantic-ui-react";
-import { Link } from "react-router-dom";
+import { Container, Icon } from "semantic-ui-react";
 
 const PitchContainer = () => {
   return (
@@ -17,18 +16,9 @@ const PitchContainer = () => {
             deeds and actions, every day.
           </p>
           <br />
-          <Button
-            as={Link}
-            to={"/contact-us"}
-            animated
-            color="red"
-            className="btn-fluid"
-          >
-            <Button.Content visible>Contact us</Button.Content>
-            <Button.Content hidden>
-              <Icon name="phone" />
-            </Button.Content>
-          </Button>
+          <a href="/contact-us" className="button is-red btn-fluid">
+            <strong>Contact us</strong> <Icon name="phone" />
+          </a>
         </div>
         <div className="has-text-centered m-4 has-background-dark box has-text-light card-shadow">
           <Icon name="map marker alternate" size="huge" />
@@ -42,18 +32,9 @@ const PitchContainer = () => {
             office here.
           </p>
           <br />
-          <Button
-            as={Link}
-            to={"/locations"}
-            animated
-            color="red"
-            className="btn-fluid"
-          >
-            <Button.Content visible>Locations</Button.Content>
-            <Button.Content hidden>
-              <Icon name="map" />
-            </Button.Content>
-          </Button>
+          <a href="/locations" className="button is-red btn-fluid">
+            <strong>Locations</strong> <Icon name="map" />
+          </a>
         </div>
         <div className="has-text-centered m-4 has-background-dark box has-text-light card-shadow">
           <Icon name="users" size="huge" />
@@ -67,18 +48,9 @@ const PitchContainer = () => {
             family member or neighbor today.
           </p>
           <br />
-          <Button
-            as={Link}
-            to={"/careers"}
-            animated
-            color="red"
-            className="btn-fluid"
-          >
-            <Button.Content visible>Careers</Button.Content>
-            <Button.Content hidden>
-              <Icon name="briefcase" />
-            </Button.Content>
-          </Button>
+          <a href="/careers" className="button is-red btn-fluid">
+            <strong>Careers</strong> <Icon name="briefcase" />
+          </a>
         </div>
       </div>
     </Container>

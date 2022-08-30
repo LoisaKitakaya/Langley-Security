@@ -1,11 +1,4 @@
-import {
-  Container,
-  Breadcrumb,
-  Card,
-  Icon,
-  Button,
-  Divider,
-} from "semantic-ui-react";
+import { Container, Breadcrumb, Card, Icon, Divider } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 import "../pages/css/pages.css";
@@ -82,18 +75,9 @@ const Contacts = () => {
                     </p>
                     <br />
                     <div className="is-flex is-justify-content-space-between contact-card-btns">
-                      <Button
-                        as={Link}
-                        to={"/careers"}
-                        animated
-                        color="red"
-                        className="btn-fluid-2"
-                      >
-                        <Button.Content visible>Careers</Button.Content>
-                        <Button.Content hidden>
-                          <Icon name="briefcase" />
-                        </Button.Content>
-                      </Button>
+                      <a href="/careers" className="button is-red btn-fluid-2">
+                        <strong>Careers</strong> <Icon name="briefcase" />
+                      </a>
                     </div>
                   </Card.Description>
                 </Card.Content>
@@ -108,18 +92,12 @@ const Contacts = () => {
                     </p>
                     <br />
                     <div className="is-flex is-justify-content-space-between contact-card-btns">
-                      <Button
-                        as={Link}
-                        to={"/industries"}
-                        animated
-                        color="red"
-                        className="btn-fluid-2"
+                      <a
+                        href="/industries"
+                        className="button is-red btn-fluid-2"
                       >
-                        <Button.Content visible>Industries</Button.Content>
-                        <Button.Content hidden>
-                          <Icon name="industry" />
-                        </Button.Content>
-                      </Button>
+                        <strong>Industries</strong> <Icon name="industry" />
+                      </a>
                     </div>
                   </Card.Description>
                 </Card.Content>

@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import { Container, Button, Icon } from "semantic-ui-react";
+import { Container, Icon } from "semantic-ui-react";
 
 import ImageGallery from "react-image-gallery";
 
@@ -96,18 +95,9 @@ const Home = () => {
             </p>
             <br />
             <br />
-            <Button
-              as={Link}
-              to={"/contact-us"}
-              animated
-              color="red"
-              className="btn-fluid"
-            >
-              <Button.Content visible>Contact us</Button.Content>
-              <Button.Content hidden>
-                <Icon name="phone" />
-              </Button.Content>
-            </Button>
+            <a href="/contact-us" className="button is-red">
+              <strong>Contact us</strong> <Icon name="phone" />
+            </a>
           </div>
           <div className="news-container p-6">
             <h3 className="is-size-3">News</h3>

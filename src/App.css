@@ -11,3 +11,12 @@
 .has-background-red {
   background-color: rgba(200, 30, 30, 0.95) !important;
 }
+
+.is-red {
+  background-color: rgb(219, 41, 41) !important;
+  color: whitesmoke !important;
+}
+
+.button {
+  border: none !important;
+}

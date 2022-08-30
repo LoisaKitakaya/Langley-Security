@@ -1,5 +1,4 @@
 import { Popup } from "semantic-ui-react";
-import { Link } from "react-router-dom";
 
 import service from "../json/services.json";
 
@@ -15,7 +14,7 @@ const ServicesContainer = () => {
                 position="top center"
                 content={srvc.description}
                 trigger={
-                  <Link to={`/services/${srvc.slug}`}>
+                  <a href={`/services/${srvc.slug}`}>
                     <div className="card card-shadow card-hover m-3">
                       <div className="card-image">
                         <img
@@ -30,7 +29,7 @@ const ServicesContainer = () => {
                         </p>
                       </div>
                     </div>
-                  </Link>
+                  </a>
                 }
               />
             </div>

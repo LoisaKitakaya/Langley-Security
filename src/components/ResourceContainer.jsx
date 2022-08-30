@@ -1,5 +1,4 @@
-import { Container, Button, Icon } from "semantic-ui-react";
-import { Link } from "react-router-dom";
+import { Container, Icon } from "semantic-ui-react";
 
 const ResourceContainer = () => {
   return (
@@ -14,18 +13,9 @@ const ResourceContainer = () => {
             our resources.
           </p>
           <br />
-          <Button
-            as={Link}
-            to={"/resource-center"}
-            animated
-            color="red"
-            className="btn-fluid"
-          >
-            <Button.Content visible>Resources</Button.Content>
-            <Button.Content hidden>
-              <Icon name="file alternate" />
-            </Button.Content>
-          </Button>
+          <a href="/resource-center" className="button is-red btn-fluid">
+            <strong>Resources</strong> <Icon name="file alternate" />
+          </a>
         </div>
         <div className="has-text-centered m-4 box has-background-dark has-text-light pinch-2 card-shadow">
           <h3 className="is-size-3">Vertically Focused Solutions</h3>
@@ -36,18 +26,9 @@ const ResourceContainer = () => {
             solutions to their security challenges.
           </p>
           <br />
-          <Button
-            as={Link}
-            to={"/industries"}
-            animated
-            color="red"
-            className="btn-fluid"
-          >
-            <Button.Content visible>Industries</Button.Content>
-            <Button.Content hidden>
-              <Icon name="industry" />
-            </Button.Content>
-          </Button>
+          <a href="/industries" className="button is-red btn-fluid">
+            <strong>Industries</strong> <Icon name="industry" />
+          </a>
         </div>
       </div>
     </Container>

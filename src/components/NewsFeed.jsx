@@ -1,4 +1,4 @@
-import { Item, Button, Icon } from "semantic-ui-react";
+import { Item, Icon } from "semantic-ui-react";
 import { gql, useQuery } from "@apollo/client";
 import { Link } from "react-router-dom";
 
@@ -54,18 +54,9 @@ const NewsFeed = () => {
           return list;
         })}
       </Item.Group>
-      <Button
-        as={Link}
-        to={"/resource-center"}
-        animated
-        color="red"
-        className="this-btn btn-fluid"
-      >
-        <Button.Content visible>More news</Button.Content>
-        <Button.Content hidden>
-          <Icon name="newspaper" />
-        </Button.Content>
-      </Button>
+      <a href="/resource-center" className="button is-red this-btn btn-fluid">
+        <strong>More news</strong> <Icon name="newspaper" />
+      </a>
     </div>
   );
 };

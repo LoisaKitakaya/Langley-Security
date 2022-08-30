@@ -46,9 +46,8 @@ const Industries = () => {
             {industryCards.map((card) => {
               const list = (
                 <>
-                  <Link
-                    key={card.id}
-                    to={`/industries/${card.slug}`}
+                  <a
+                    href={`/industries/${card.slug}`}
                     className=" industry-card mb-3 mt-3 card-shadow card-hover"
                   >
                     <div className="card">
@@ -63,7 +62,7 @@ const Industries = () => {
                         </p>
                       </div>
                     </div>
-                  </Link>
+                  </a>
                 </>
               );
 
