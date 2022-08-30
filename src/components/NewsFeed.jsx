@@ -1,6 +1,5 @@
 import { Item, Icon } from "semantic-ui-react";
 import { gql, useQuery } from "@apollo/client";
-import { Link } from "react-router-dom";
 
 import loader from "../assets/loader.gif";
 
@@ -44,9 +43,9 @@ const NewsFeed = () => {
                   header={item.newsHeadline}
                   meta={item.publishedDate}
                 />
-                <Link to={`/feed/${item.newsSlug}`} className="view-news-link">
+                <a href={`/feed/${item.newsSlug}`} className="view-news-link">
                   Read more
-                </Link>
+                </a>
               </Item>
             </>
           );

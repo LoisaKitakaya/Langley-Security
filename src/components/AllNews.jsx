@@ -1,6 +1,5 @@
 import { Item, Icon } from "semantic-ui-react";
 import { gql, useQuery } from "@apollo/client";
-import { Link } from "react-router-dom";
 
 import loader from "../assets/loader.gif";
 
@@ -42,14 +41,14 @@ const AllNews = () => {
                 <Item.Image size="small" src={item.newsThumbnail.url} />
 
                 <Item.Content>
-                  <Item.Header as={Link} to={`/feed/${item.newsSlug}`}>
+                  <Item.Header>
                     <div className="is-flex is-align-items-center is-justify-content-space-between">
                       <Icon
                         name="linkify"
                         size="small"
                         className="has-text-grey"
                       />
-                      {item.newsHeadline}
+                      <a href={`/feed/${item.newsSlug}`}>{item.newsHeadline}</a>
                     </div>
                   </Item.Header>
                   <Item.Description>{item.newsBrief}</Item.Description>
