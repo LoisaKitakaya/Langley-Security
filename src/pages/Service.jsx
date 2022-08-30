@@ -1,11 +1,13 @@
 import { Link, useParams } from "react-router-dom";
-import { Container, Breadcrumb, Icon } from "semantic-ui-react";
+import { Container, Breadcrumb, Icon, Divider } from "semantic-ui-react";
 
 import IntroBanner from "../components/IntroBanner";
 import IntroBannerReverse from "../components/IntroBannerReverse";
 import service from "../services.json";
 
 import PageTitle from "../PageTitle";
+import ServiceForm from "../components/ServicesForm";
+import ServiceList from "../components/ServiceList";
 
 const Service = () => {
   const slug = useParams();
@@ -49,7 +51,26 @@ const Service = () => {
       {/* intro */}
 
       {/* security services */}
-      <div className="has-background-dark has-text-light p-6 mb-6 reframe-2"></div>
+      <div className="has-background-dark has-text-light p-6 mb-6 reframe-2">
+        <Container>
+          <h3 className="is-size-3 mb-3 has-text-centered">
+            Customized Security Solutions for you
+          </h3>
+          <p className="mb-3 has-text-centered">
+            To discuss security solutions for your organization, please provide
+            the following information.
+          </p>
+          <Divider />
+          <div className="columns">
+            <div className="column">
+              <ServiceForm data={data} />
+            </div>
+            <div className="column">
+              <ServiceList data={data} />
+            </div>
+          </div>
+        </Container>
+      </div>
       {/* security services */}
 
       {/* outro */}
