@@ -76,12 +76,12 @@
 }
 
 .card-hover {
-  transition-duration: 150ms;
-  transition-timing-function: linear;
+  transition-duration: 150ms !important;
+  transition-timing-function: linear !important;
 }
 
 .card-hover:hover {
-  transform: scale(1.01275);
+  transform: scale(1.01275) !important;
 }
 
 .is-fullheight {

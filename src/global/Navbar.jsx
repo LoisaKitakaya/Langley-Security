@@ -63,19 +63,19 @@ const Navbar = () => {
 
                 <div className="navbar-dropdown has-background-light">
                   <a
-                    href="/security-services"
+                    href="/services/security-services"
                     className="navbar-item navbar-h-item"
                   >
                     Security services
                   </a>
                   <a
-                    href="/technology-services"
+                    href="/services/technology-services"
                     className="navbar-item navbar-h-item"
                   >
                     Technology services
                   </a>
                   <a
-                    href="/professional-services"
+                    href="/services/professional-services"
                     className="navbar-item navbar-h-item"
                   >
                     Professional services
@@ -129,7 +129,7 @@ const Navbar = () => {
         </Menu.Item>
         <Menu.Item
           as={Link}
-          to={"/security-services"}
+          to={"/services/security-services"}
           onClick={() => setVisible(false)}
         >
           <Icon name="user secret" size="mini" />
@@ -137,7 +137,7 @@ const Navbar = () => {
         </Menu.Item>
         <Menu.Item
           as={Link}
-          to={"/technology-services"}
+          to={"/services/technology-services"}
           onClick={() => setVisible(false)}
         >
           <Icon name="computer" size="mini" />
@@ -145,7 +145,7 @@ const Navbar = () => {
         </Menu.Item>
         <Menu.Item
           as={Link}
-          to={"/professional-services"}
+          to={"/services/professional-services"}
           onClick={() => setVisible(false)}
         >
           <Icon name="chess" size="mini" />
