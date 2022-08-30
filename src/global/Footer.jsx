@@ -61,18 +61,6 @@ const Footer = () => {
                 <Icon name="whatsapp square" />
               </a>
               <a
-                href="https://twitter.com/FreedomLoisa"
-                className="has-text-light is-size-4"
-              >
-                <Icon name="twitter square" />
-              </a>
-              <a
-                href="https://vimeo.com/255170713"
-                className="has-text-light is-size-4"
-              >
-                <Icon name="vimeo square" />
-              </a>
-              <a
                 href="tel:+254720469665"
                 className="has-text-light is-size-4"
               >
