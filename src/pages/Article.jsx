@@ -86,7 +86,7 @@ const Article = () => {
             className="rounded mb-6"
           />
           <div
-            className="is-size-5 content"
+            className="content"
             dangerouslySetInnerHTML={{ __html: data.article.content.html }}
           />
         </div>

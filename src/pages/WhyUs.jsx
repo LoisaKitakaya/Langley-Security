@@ -33,14 +33,14 @@ const WhyUs = () => {
             Why us should I choose Langley Security?
           </h3>
           <Divider />
-          <p className="is-size-5">
+          <p>
             Are you looking for a security company to take care of your security
             needs so that you can focus on your business?
             <br />
             <br />
             Here are some reasons why clients choose Langley Security Group:
           </p>
-          <ul className="pr-6 pl-6 is-size-5">
+          <ul className="pr-6 pl-6">
             <br />
             <li>
               <strong>Ease of doing business with:</strong> Benefit from devoted

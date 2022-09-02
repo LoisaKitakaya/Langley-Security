@@ -81,7 +81,7 @@ const News = () => {
             className="rounded mb-6"
           />
           <div
-            className="is-size-5 content"
+            className="content"
             dangerouslySetInnerHTML={{ __html: data.newsModel.content.html }}
           />
         </div>
