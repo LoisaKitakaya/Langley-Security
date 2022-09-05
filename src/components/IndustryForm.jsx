@@ -1,5 +1,4 @@
 import { Button, Icon } from "semantic-ui-react";
-import { Link } from "react-router-dom";
 
 const IndustryForm = ({ data }) => {
   return (
@@ -166,7 +165,7 @@ const IndustryForm = ({ data }) => {
       </div>
       <label class="checkbox mb-5 ml-3">
         <input type="checkbox" required /> I agree to the{" "}
-        <Link to={"/terms-&-conditions"}>terms and conditions</Link>
+        <a href={"/terms-&-conditions"}>terms and conditions</a>
       </label>
       <div class="control">
         <Button type="submit" animated color="red" className="btn-fluid-2">
