@@ -5,17 +5,19 @@
     "openingStatementTwo": "By visiting or using any of our services, you agree that your personal information will be handled as described in this Privacy Policy. We suggest that you refer to this Privacy Policy on a regular basis as it may change, at any time in our sole discretion. We will provide notice of material changes by noting that the Privacy Policy is new or otherwise notifying registered users to the extent required by applicable law. Your use of our Website, and any dispute over privacy, is subject to this Privacy Policy and our Terms of Use, including its applicable limitations on damages and the resolution of disputes. The Terms of Use are incorporated by reference into this Privacy Policy."
   },
   "navigation": {
-    "idOne": "#The-Information-We-Collect-About-You",
-    "idTwo": "#Our-Use-of-Your-Information",
-    "idThree": "#Our-Disclosure-of-Your-Information",
-    "idFour": "#Our-Use-of-Cookies-and-Other-Tracking-Technologies",
-    "idFive": "#Links",
-    "idSix": "#Opting-Out-of-Email-Marketing",
-    "idSeven": "#Security",
-    "idEight": "#Contacting-Us",
-    "idNine": "#Contact-Us"
+    "title": "Navigation",
+    "idOne": "The-Information-We-Collect-About-You",
+    "idTwo": "Our-Use-of-Your-Information",
+    "idThree": "Our-Disclosure-of-Your-Information",
+    "idFour": "Our-Use-of-Cookies-and-Other-Tracking-Technologies",
+    "idFive": "Links",
+    "idSix": "Opting-Out-of-Email-Marketing",
+    "idSeven": "Security",
+    "idEight": "Contacting-Us",
+    "idNine": "Contact-Us"
   },
   "informationWeCollectAboutYou": {
+    "title": "Information We Collect About You",
     "paragraphOne": "We collect information about you directly from you, from other individuals and entities, and automatically through your use of our Website. As set forth below, we primarily collect the following information about you: name, contact information, and other identifiers; customer records/purchase history; usage data (e.g., information about how you use our services online); and professional/employment related information. Please note that our services are provided almost exclusively to business customers, and, as such, much of the information that we collect about you pertains to our business relationship with your employer. If you are applying for a position with us, please see our job applicant notice. For more information about the way that we use the information that we collect, see Our Use of Your Information below.",
     "paragraphTwo": "Information We Collect Directly From You: The type of information that we collect from you depends upon your interaction with us. In particular, we collect the following information from you during your interactions with us:",
     "informationWeCollectDirectlyFromYou": {
@@ -26,8 +28,7 @@
       "pointFive": "Social Media: if you post to any of our social media accounts, we may comment on or contact you in response to your post. If you maintain an account with us, we do not typically associate this information with your account.",
       "pointSix": "Ethics/Incident Reporting: on certain of our Websites, you may file a report if you have concerns regarding an action taken by an employee or contractor with our company. We collect the information that you choose to submit as part of your report.",
       "pointSeven": "Trade Shows/Events: at certain trade shows, we offer the opportunity to provide us with your contact information to learn more about our services.",
-      "pointEight": "Make an Appointment/Contact Us Regarding Employment: you may create an appointment to meet with us at an upcoming job fair or similar event. You also may forward information about the job fair/employment to your friends.",
-      "pointNine": ""
+      "pointEight": "Make an Appointment/Contact Us Regarding Employment: you may create an appointment to meet with us at an upcoming job fair or similar event. You also may forward information about the job fair/employment to your friends."
     },
     "informationWeCollectAboutYouFromOtherSources": "We collect information about you from your employers and your friends. For example, your employer may provide us with a list of employees authorized to use our services/log into our portals. If your friend forwards a job opportunity to you or information about a job fair, then we will collect your contact information.",
     "informationWeCollectAutomatically": "We automatically collect usage data regarding your use of our Websites through cookies, web beacons, and other technologies (referred to generally as usage data): your domain name; your browser type and operating system; web pages you view; links you click; your IP address; the length of time you visit or use our Websites; and the referring URL, or the webpage that led you to our Website. We may also collect your approximate city through collection of your IP address. Typically, we do not combine this information with other information that we have collected about you, including, other personal information. Please see the section “Cookies and Other Tracking Technologies” below for more information.",
