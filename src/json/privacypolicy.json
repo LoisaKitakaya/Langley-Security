@@ -13,8 +13,7 @@
     "idFive": "Links",
     "idSix": "Opting-Out-of-Email-Marketing",
     "idSeven": "Security",
-    "idEight": "Contacting-Us",
-    "idNine": "Contact-Us"
+    "idEight": "Contact-Us"
   },
   "informationWeCollectAboutYou": {
     "title": "Information We Collect About You",
@@ -29,12 +28,22 @@
       "pointSix": "Ethics/Incident Reporting: on certain of our Websites, you may file a report if you have concerns regarding an action taken by an employee or contractor with our company. We collect the information that you choose to submit as part of your report.",
       "pointSeven": "Trade Shows/Events: at certain trade shows, we offer the opportunity to provide us with your contact information to learn more about our services.",
       "pointEight": "Make an Appointment/Contact Us Regarding Employment: you may create an appointment to meet with us at an upcoming job fair or similar event. You also may forward information about the job fair/employment to your friends."
-    },
-    "informationWeCollectAboutYouFromOtherSources": "We collect information about you from your employers and your friends. For example, your employer may provide us with a list of employees authorized to use our services/log into our portals. If your friend forwards a job opportunity to you or information about a job fair, then we will collect your contact information.",
-    "informationWeCollectAutomatically": "We automatically collect usage data regarding your use of our Websites through cookies, web beacons, and other technologies (referred to generally as usage data): your domain name; your browser type and operating system; web pages you view; links you click; your IP address; the length of time you visit or use our Websites; and the referring URL, or the webpage that led you to our Website. We may also collect your approximate city through collection of your IP address. Typically, we do not combine this information with other information that we have collected about you, including, other personal information. Please see the section “Cookies and Other Tracking Technologies” below for more information.",
-    "informationWeCollectInOurCapacityAsAServiceProvider": "Our services are provided predominantly to businesses. Our customer directs the scope of information that we collect about you and the purpose of that collection. Please note that our services may involve the use of video or audio recording."
+    }
+  },
+  "informationWeCollectAboutYouFromOtherSources": {
+    "title": "Information We Collect About You From Other Sources",
+    "paragraph": "We collect information about you from your employers and your friends. For example, your employer may provide us with a list of employees authorized to use our services/log into our portals. If your friend forwards a job opportunity to you or information about a job fair, then we will collect your contact information."
+  },
+  "informationWeCollectAutomatically": {
+    "title": "Information We Collect Automatically",
+    "paragraph": "We automatically collect usage data regarding your use of our Websites through cookies, web beacons, and other technologies (referred to generally as usage data): your domain name; your browser type and operating system; web pages you view; links you click; your IP address; the length of time you visit or use our Websites; and the referring URL, or the webpage that led you to our Website. We may also collect your approximate city through collection of your IP address. Typically, we do not combine this information with other information that we have collected about you, including, other personal information. Please see the section “Cookies and Other Tracking Technologies” below for more information."
+  },
+  "informationWeCollectInOurCapacityAsAServiceProvider": {
+    "title": "Information We Collect In Our Capacity As a Service Provider",
+    "paragraph": "Our services are provided predominantly to businesses. Our customer directs the scope of information that we collect about you and the purpose of that collection. Please note that our services may involve the use of video or audio recording."
   },
   "ourUseOfYourInformation": {
+    "title": "Our use of Your Information",
     "setup": "We use your information, including your personal information, for the following purposes:",
     "delivery": {
       "pointOne": "For customer services purposes, including to respond to your inquiries, to make an appointment with you.",
@@ -51,6 +60,7 @@
     }
   },
   "ourDisclosureOfYourInformation": {
+    "title": "Our Disclosure of Your Information",
     "setup": "We share your information, including your personal information, with the following persons and in the following circumstances:",
     "delivery": {
       "pointOne": "Service providers: we disclose your personal information to service providers for a business purpose. These entities include service providers that host our website; assist us in advertising, measuring the success of our advertising campaigns; maintaining or improving our products and services; and for any other purpose as described above in the section above regarding our use of your personal information.",
@@ -62,6 +72,7 @@
     }
   },
   "cookiesAndTrackingTechnologies": {
+    "title": "Our Use of Cookies and Other Tracking Technologies",
     "paragraphOne": "We and entities we engage (to assist us with website analytics, marketing, evaluating the success of our marketing campaigns, and targeted advertising) use cookies and other tracking technologies to track information about your use of our Websites. Typically, we do not combine this information with other personal information we collect from you.",
     "paragraphTwo": "Cookies. Cookies are alphanumeric identifiers that we transfer to your computer’s hard drive through your web browser for record-keeping purposes. Some cookies allow us to make it easier for you to navigate our Websites, while others are used to enable a faster log-in process or to allow us to track your activities at our Websites. There are two types of cookies: session and persistent cookies.",
     "paragraphThree": "Session Cookies. Session cookies exist only during an online session. They disappear from your computer when you close your browser or turn off your computer. We use session cookies to allow our systems to uniquely identify you during a session or while you are logged into the Website. This allows us to process your online transactions and requests and verify your identity, after you have logged in, as you move through our Websites.",
@@ -72,9 +83,20 @@
     "paragraphEight": "Do-Not-Track. Currently, our systems do not recognize web browser “do-not-track” requests. You may, however, disable certain tracking as discussed in this section (e.g., by disabling cookies); you also may opt-out of targeted advertising by following the instructions in the Vendor Ad Networks section.",
     "paragraphNine": "Vendor Ad Networks. We use vendors such as network advertisers to serve advertisements on websites other than this Website or other media (e.g., social networking platforms). This enables us and these vendors to target advertisements to you for products and services in which you might be interested. Ad network providers, advertisers, sponsors and/or traffic measurement services may use cookies, JavaScript, web beacons (including clear GIFs), Flash LSOs and other tracking technologies to measure the effectiveness of their ads and to personalize advertising content to you. These cookies and other technologies are governed by each vendor’s specific privacy policy, not this one. We may provide these advertisers with information, including personal information, about you."
   },
-  "links": "Our Website may contain links to websites operated by non-affiliated entities. Any access to and use of such linked websites is not governed by this Privacy Policy, but instead is governed by the privacy policies of those websites. We are not responsible for the information practices of such websites.",
-  "optingOutOfEmailMarketing": "We may send periodic promotional emails to you. You may opt-out of promotional emails by following the opt-out instructions contained in the e-mail or by writing to us at privacy@langleysecurity.com. Please note that it may take up to 10 business days for us to process opt-out requests. If you opt-out of receiving promotional emails, we may still send you account and transactional information via email.",
-  "security": "We cannot ensure that information will never be disclosed in ways not otherwise described in this Privacy Policy. By way of example (without limiting the foregoing), third parties may unlawfully intercept or access files, transmissions or private communications. Therefore, although we use industry standard practices to protect information, we do not promise, and you should not expect, that your personal information or private communications will always remain private.",
-  "contactingUs": "If you have any questions about this Privacy Policy, or if you would like to review, change, or remove your personal information, you can e-mail us at privacy@aus.com.",
-  "contactUs": "If you have questions about the privacy aspects of our services or would like to make a complaint, please call +254-720-469-665 (toll free) or email privacy@langleysecurity.com."
+  "links": {
+    "title": "Links",
+    "paragraph": "Our Website may contain links to websites operated by non-affiliated entities. Any access to and use of such linked websites is not governed by this Privacy Policy, but instead is governed by the privacy policies of those websites. We are not responsible for the information practices of such websites."
+  },
+  "optingOutOfEmailMarketing": {
+    "title": "Opting Out of Email Marketing",
+    "paragraph": "We may send periodic promotional emails to you. You may opt-out of promotional emails by following the opt-out instructions contained in the e-mail or by writing to us at privacy@langleysecurity.com. Please note that it may take up to 10 business days for us to process opt-out requests. If you opt-out of receiving promotional emails, we may still send you account and transactional information via email."
+  },
+  "security": {
+    "title": "Security",
+    "paragraph": "We cannot ensure that information will never be disclosed in ways not otherwise described in this Privacy Policy. By way of example (without limiting the foregoing), third parties may unlawfully intercept or access files, transmissions or private communications. Therefore, although we use industry standard practices to protect information, we do not promise, and you should not expect, that your personal information or private communications will always remain private."
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "paragraph": "If you have questions about the privacy aspects of our services or would like to make a complaint, please call +254-720-469-665 or email privacy@langleysecurity.com."
+  }
 }
