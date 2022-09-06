@@ -10,8 +10,8 @@ let imageOne =
   "https://images.pexels.com/photos/11965505/pexels-photo-11965505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 let imageTwo =
   "https://images.pexels.com/photos/5673488/pexels-photo-5673488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
-let headerOne = "Langley Security";
-let headerTwo = "Our History";
+let headerOne = "Work with us";
+let headerTwo = "Secure a career that is committed to you";
 let captionOne =
   "We are Kenya's leading security and facility services provider. At Langley Security, we pride ourselves on fostering a promote from within culture. There are countless examples of individuals who began their career as Security Professionals and today hold positions on our senior leadership team.";
 let captionTwo =
