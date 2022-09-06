@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
 
       {/* privacy police */}
       <Container>
-        <div className="mb-3 box has-background-light card-shadow">
+        <div className="mb-6 box has-background-light card-shadow">
           <h3 className="is-size-3 has-text-centered">Privacy policy</h3>
           <Divider />
           <div className="mb-3">

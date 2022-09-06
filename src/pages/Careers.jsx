@@ -53,6 +53,7 @@ const Careers = () => {
           </p>
           <Divider />
           <CareersContainer />
+          <Divider />
         </Container>
       </div>
       {/* careers */}

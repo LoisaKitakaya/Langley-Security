@@ -28,7 +28,7 @@ const WhyUs = () => {
 
       {/* Why us */}
       <Container>
-        <div className="mb-3 box has-background-light card-shadow">
+        <div className="mb-6 box has-background-light card-shadow pb-6">
           <h3 className="is-size-3 has-text-centered">
             Why us should I choose Langley Security?
           </h3>
