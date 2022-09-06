@@ -37,9 +37,7 @@ const Careers = () => {
       {/* breadcrumb */}
 
       {/* intro */}
-      <Container>
-        <IntroBanner image={imageOne} header={headerOne} caption={captionOne} />
-      </Container>
+      <IntroBanner image={imageOne} header={headerOne} caption={captionOne} />
       {/* intro */}
 
       {/* careers */}
@@ -59,13 +57,11 @@ const Careers = () => {
       {/* careers */}
 
       {/* outro */}
-      <Container>
-        <IntroBannerReverse
-          image={imageTwo}
-          header={headerTwo}
-          caption={captionTwo}
-        />
-      </Container>
+      <IntroBannerReverse
+        image={imageTwo}
+        header={headerTwo}
+        caption={captionTwo}
+      />
       {/* outro */}
     </div>
   );
