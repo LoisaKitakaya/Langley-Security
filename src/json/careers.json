@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "index": 0,
+    "title": "Security Guard",
+    "responsibilities": "Being a visible authoritarian figure capable of deterrence. Enforcing laws and regulations related to trespassing. Guarding high-traffic areas and monitoring all visitors. Checking the identification or passes of visitors or issuing them passes. Taking charge of metal detector and bag-checking security procedures. Performing routine inspections in the areas they are guarding. Securing specific areas during maintenance work and emergencies. Monitoring activities on security camera video monitors.",
+    "location": "Nairobi, Langata",
+    "requirements": {
+      "education": "Form 4",
+      "work experience": "1 Year",
+      "candidateDescription": "Must be a citizen of Kenya. Must be over 18 years of age and less than 65 years of age. Must have completed prescribed security training and met required physical standards. Must not have a criminal conviction related to company fraud and misfeasance. Must not have links with banned organizations or groups engaging in criminal activities."
+    }
+  },
+  {
+    "id": 2,
+    "index": 1,
+    "title": "Technology Expert",
+    "responsibilities": "Being a visible authoritarian figure capable of deterrence. Enforcing laws and regulations related to trespassing. Guarding high-traffic areas and monitoring all visitors. Checking the identification or passes of visitors or issuing them passes. Taking charge of metal detector and bag-checking security procedures. Performing routine inspections in the areas they are guarding. Securing specific areas during maintenance work and emergencies. Monitoring activities on security camera video monitors.",
+    "location": "Nairobi, Langata",
+    "requirements": {
+      "education": "Bachelors degree in technology related field",
+      "work experience": "3 Year",
+      "candidateDescription": "Must be a citizen of Kenya. Must be over 18 years of age and less than 65 years of age. Must have completed prescribed security training and met required physical standards. Must not have a criminal conviction related to company fraud and misfeasance. Must not have links with banned organizations or groups engaging in criminal activities."
+    }
+  },
+  {
+    "id": 3,
+    "index": 2,
+    "title": "Risk Consultant",
+    "responsibilities": "Being a visible authoritarian figure capable of deterrence. Enforcing laws and regulations related to trespassing. Guarding high-traffic areas and monitoring all visitors. Checking the identification or passes of visitors or issuing them passes. Taking charge of metal detector and bag-checking security procedures. Performing routine inspections in the areas they are guarding. Securing specific areas during maintenance work and emergencies. Monitoring activities on security camera video monitors.",
+    "location": "Nairobi, Langata",
+    "requirements": {
+      "education": "Masters in security related field",
+      "work experience": "6 Year",
+      "candidateDescription": "Must be a citizen of Kenya. Must be over 18 years of age and less than 65 years of age. Must have completed prescribed security training and met required physical standards. Must not have a criminal conviction related to company fraud and misfeasance. Must not have links with banned organizations or groups engaging in criminal activities."
+    }
+  }
+]
